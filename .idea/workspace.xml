@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="TwoSum problem done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="ThreeSum problem done">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Unique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SecondThirdSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/array/SecondMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/array/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +60,14 @@
     "Application.MaxMin.executor": "Run",
     "Application.Occurence.executor": "Run",
     "Application.Search.executor": "Run",
+    "Application.SecondMaximum.executor": "Run",
     "Application.SecondThirdSmallest.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.Unique.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG"
@@ -101,24 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1728051519421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ThreeSum problem done">
+      <option name="closed" value="true" />
+      <created>1728052721152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728052721152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array initiated!" />
     <MESSAGE value="Array basics done part 1" />
     <MESSAGE value="TwoSum problem done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoSum problem done" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/array/SecondThirdSmallest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ThreeSum problem done" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreeSum problem done" />
   </component>
 </project>
