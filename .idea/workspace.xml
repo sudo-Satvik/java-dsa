@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructureAndAlgorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Array initiated!">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Greaterthancount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/IsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/LastOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/MaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Occurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SecondThirdSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sudo-Satvik"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sudo-Satvik/java-dsa.git",
+    "accountId": "45274fe8-efb8-45e8-9f2c-5a628bb8e25d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -46,8 +54,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Greaterthancount.executor": "Run",
+    "Application.IsSorted.executor": "Run",
+    "Application.LastOccurence.executor": "Run",
     "Application.Max.executor": "Run",
+    "Application.MaxMin.executor": "Run",
+    "Application.Occurence.executor": "Run",
     "Application.Search.executor": "Run",
+    "Application.SecondThirdSmallest.executor": "Run",
     "Application.Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -64,6 +78,19 @@
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Array initiated!">
+      <option name="closed" value="true" />
+      <created>1728034875381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728034875381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Array initiated!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array initiated!" />
   </component>
 </project>
