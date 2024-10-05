@@ -6,7 +6,26 @@
 6. Count the number of elements which is strictly greater than target -> 00:01:25                         => 04 Oct 2024
 7. Check if array is sorted or not -> 00:02:04                                                            => 04 Oct 2024
 8. Return the array of smallest and largest element -> 00:01:55                                           => 04 Oct 2024
-9. Return second and third smallest element in the array -> 00:30:22                                      => 04 Oct 2024
-10. TwoSum leetcode #1 Array question -> 00:04:54                                                         => 04 Oct 2024
-11. ThreeSum -> 00:04:58                                                                                  => 04 Oct 2024
-12. Find the unique number or element in the array -> 00:
+========================================================================================================================
+PATTERN - TARGET SUM
+9. TwoSum leetcode #1 Array question -> 00:04:54                                                         => 04 Oct 2024
+10. ThreeSum -> 00:04:58                                                                                  => 04 Oct 2024
+========================================================================================================================
+PATTERN - ARRAY MANIPULATION
+    I. TRAVERSE ALL PAIRS
+    II. EQUAL PAIRS - STRIKE OUT
+    III. TRAVERSE ARRAY - IF VALUE > 0 RETURN ANS
+11. Find the unique number or element in the array -> 00:04:22                                            => 04 Oct 2024
+12. Return second smallest element in the array -> 00:30:22                                               => 04 Oct 2024
+13. Find the repeated number or element in the array -> 00:02:52                                          => 04 Oct 2024
+========================================================================================================================
+MISCELLANEOUS
+14. Swapping two values by using temp variable -> 00:01:25                                                => 05 Oct 2024
+15. Swapping two values by using mathematics -> 00:04:03                                                  => 05 Oct 2024
+16. Reversing an Array -> 00:02:23                                                                        => 05 Oct 2024
+17. Rotate an Array by K steps by using temp arr -> 00:05:24                                              => 05 Oct 2024
+18. Rotate an Array by K steps by using in-place -> 00:07:34                                              => 05 Oct 2024
+19. Check if a number is present inside the array or not
+    and answer queries corresponding to it
+========================================================================================================================
+TWO POINTERS APPROACH
