@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Two pointers part 1 done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Sorted Even Odd using two pointers">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SquareSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,8 @@
     "Application.SecondThirdSmallest.executor": "Run",
     "Application.Sort01.executor": "Run",
     "Application.Sort01_TwoPointer.executor": "Run",
+    "Application.SortEvenOdd.executor": "Debug",
+    "Application.SquareSorting.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Swapping.executor": "Run",
     "Application.Swapping2.executor": "Run",
@@ -171,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728212015729</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sorted Even Odd using two pointers">
+      <option name="closed" value="true" />
+      <created>1728213752030</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728213752030</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +195,8 @@
     <MESSAGE value="Array Basic Pt.1 done" />
     <MESSAGE value="Array Basic Pt.2 done" />
     <MESSAGE value="Two pointers part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two pointers part 1 done" />
+    <MESSAGE value="Sorted Even Odd using two pointers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted Even Odd using two pointers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,6 +209,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java</url>
+          <line>9</line>
+          <properties class="data_structure.array.SortEvenOdd" method="sort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

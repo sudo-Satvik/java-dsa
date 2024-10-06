@@ -25,8 +25,13 @@ MISCELLANEOUS
 16. Reversing an Array -> 00:02:23                                                                        => 05 Oct 2024
 17. Rotate an Array by K steps by using temp arr -> 00:05:24                                              => 05 Oct 2024
 18. Rotate an Array by K steps by using in-place -> 00:07:34                                              => 05 Oct 2024
-19. Check if a number is present inside the array or not
+19. Check if a number is present inside the array or not                                                  => 05 Oct 2024
     and answer queries corresponding to it
 ========================================================================================================================
 TWO POINTERS APPROACH
-20. Sort an array consisting of 0s and 1s only ->
+// Non-decreasing array = {1, 2, 2, 3}
+// Increasing array = {1, 2, 3}
+20. Sort an array consisting of 0s and 1s only                                                            => 06 Oct 2024
+21. Sort an array even left side and odd right side                                                       => 06 Oct 2024
+22. Sort square from the given array                                                                      => 06 Oct 2024
+========================================================================================================================
