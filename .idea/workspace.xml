@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Array Basic Pt.2 done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sort01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sort01_TwoPointer.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Two pointers part 1 done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728146420814</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Two pointers part 1 done">
+      <option name="closed" value="true" />
+      <created>1728212015729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728212015729</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +183,8 @@
     <MESSAGE value="Array Manipulation Pattern 2" />
     <MESSAGE value="Array Basic Pt.1 done" />
     <MESSAGE value="Array Basic Pt.2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Basic Pt.2 done" />
+    <MESSAGE value="Two pointers part 1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two pointers part 1 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
