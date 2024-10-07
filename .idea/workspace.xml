@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Sorted Even Odd using two pointers">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SquareSorting.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Square sorting done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
@@ -56,6 +59,10 @@
     "Application.Max.executor": "Run",
     "Application.MaxMin.executor": "Run",
     "Application.Occurence.executor": "Run",
+    "Application.PrefixSum1.executor": "Run",
+    "Application.PrefixSum2.executor": "Run",
+    "Application.PrefixSum3.executor": "Run",
+    "Application.PrefixSum4.executor": "Run",
     "Application.PresentQuery.executor": "Run",
     "Application.Repeating.executor": "Run",
     "Application.ReversingArr.executor": "Run",
@@ -182,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728213752030</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Square sorting done">
+      <option name="closed" value="true" />
+      <created>1728233123895</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728233123895</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,20 +211,12 @@
     <MESSAGE value="Array Basic Pt.2 done" />
     <MESSAGE value="Two pointers part 1 done" />
     <MESSAGE value="Sorted Even Odd using two pointers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorted Even Odd using two pointers" />
+    <MESSAGE value="Square sorting done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Square sorting done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/data_structure/array/Sort01_TwoPointer.java</url>
-          <line>10</line>
-          <properties class="data_structure.array.Sort01_TwoPointer" method="sorting">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java</url>
           <line>9</line>
