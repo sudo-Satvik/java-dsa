@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="2d matrix add done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/MatrixMultiplication.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Matrix Multiplication done ya'">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Transpose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/array/MatrixAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/array/MatrixAdd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,7 @@
     "Application.Swapping.executor": "Run",
     "Application.Swapping2.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.Transpose.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.Unique.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728403772370</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Matrix Multiplication done ya'">
+      <option name="closed" value="true" />
+      <created>1728547101161</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547101161</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +238,8 @@
     <MESSAGE value="Square sorting done" />
     <MESSAGE value="Prefix Sum done" />
     <MESSAGE value="2d matrix add done" />
-    <option name="LAST_COMMIT_MESSAGE" value="2d matrix add done" />
+    <MESSAGE value="Matrix Multiplication done ya'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matrix Multiplication done ya'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
