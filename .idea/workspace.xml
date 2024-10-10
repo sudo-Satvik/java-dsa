@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Square sorting done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PrefixSum4.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="2d matrix add done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/MatrixMultiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/MatrixAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/array/MatrixAdd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,8 @@
     "Application.IsSorted.executor": "Run",
     "Application.LastOccurence.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MatrixAdd.executor": "Run",
+    "Application.MatrixMultiplication.executor": "Debug",
     "Application.Max.executor": "Run",
     "Application.MaxMin.executor": "Run",
     "Application.Occurence.executor": "Run",
@@ -197,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728233123895</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Prefix Sum done">
+      <option name="closed" value="true" />
+      <created>1728304336285</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728304336285</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2d matrix add done">
+      <option name="closed" value="true" />
+      <created>1728403772370</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728403772370</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +228,9 @@
     <MESSAGE value="Two pointers part 1 done" />
     <MESSAGE value="Sorted Even Odd using two pointers" />
     <MESSAGE value="Square sorting done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Square sorting done" />
+    <MESSAGE value="Prefix Sum done" />
+    <MESSAGE value="2d matrix add done" />
+    <option name="LAST_COMMIT_MESSAGE" value="2d matrix add done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +243,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/data_structure/array/MatrixMultiplication.java</url>
+          <line>12</line>
+          <properties class="data_structure.array.MatrixMultiplication" method="multiply">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

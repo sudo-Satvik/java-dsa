@@ -43,3 +43,5 @@ arr[] = 2 1 3 4
 24. For a given array of integers of size n, answer q queries to print the sum of values in a given       => 07 Oct 2024
     range of indices from l to r
 25. Program to check if an array can be partitioned into sub-arrays with equal sum                        => 07 Oct 2024
+========================================================================================================================
+26. Adding 2D Matrices ->
