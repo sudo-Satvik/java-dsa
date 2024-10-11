@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Rotation clockwise is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/PascalTriangle.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Pascal Triangle is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SpiralTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
@@ -75,6 +75,7 @@
     "Application.Sort01.executor": "Run",
     "Application.Sort01_TwoPointer.executor": "Run",
     "Application.SortEvenOdd.executor": "Debug",
+    "Application.SpiralTraverse.executor": "Run",
     "Application.SquareSorting.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Swapping.executor": "Run",
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728638031157</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pascal Triangle is done">
+      <option name="closed" value="true" />
+      <created>1728642249468</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728642249468</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,7 +268,8 @@
     <MESSAGE value="Matrix Multiplication done ya'" />
     <MESSAGE value="Transpose using auxiliary space is done!" />
     <MESSAGE value="Rotation clockwise is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotation clockwise is done" />
+    <MESSAGE value="Pascal Triangle is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascal Triangle is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
