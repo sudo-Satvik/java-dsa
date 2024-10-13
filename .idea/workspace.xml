@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Spiral Traverse done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/SpiralCreate.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Spiral Matrix Creation done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +77,13 @@
     "Application.Sort01.executor": "Run",
     "Application.Sort01_TwoPointer.executor": "Run",
     "Application.SortEvenOdd.executor": "Debug",
+    "Application.SpiralCreate.executor": "Run",
     "Application.SpiralTraverse.executor": "Run",
     "Application.SquareSorting.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.Sum2DArray.executor": "Run",
+    "Application.Sum2DArray2.executor": "Run",
+    "Application.Sum2DArray3.executor": "Run",
     "Application.Swapping.executor": "Run",
     "Application.Swapping2.executor": "Run",
     "Application.ThreeSum.executor": "Run",
@@ -255,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728651607160</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Spiral Matrix Creation done">
+      <option name="closed" value="true" />
+      <created>1728653494241</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728653494241</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +292,8 @@
     <MESSAGE value="Rotation clockwise is done" />
     <MESSAGE value="Pascal Triangle is done" />
     <MESSAGE value="Spiral Traverse done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spiral Traverse done" />
+    <MESSAGE value="Spiral Matrix Creation done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spiral Matrix Creation done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

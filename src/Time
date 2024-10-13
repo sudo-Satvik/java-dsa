@@ -35,7 +35,7 @@ TWO POINTERS APPROACH
 21. Sort an array even left side and odd right side                                                       => 06 Oct 2024
 22. Sort square from the given array                                                                      => 06 Oct 2024
 ========================================================================================================================
-PREFIX SUM APPROACH
+PREFIX SUM APPROACH ~ 1D Array
 arr[] = 2 1 3 4
 // Prefix Sum = 2 3 6 10
 // Suffix Sum = 10 8 7 4
@@ -50,4 +50,10 @@ arr[] = 2 1 3 4
 29. Rotating a Matrix                                                                                     => 11 Oct 2024
 28. Pascal's Triangle                                                                                     => 11 Oct 2024
 29. Return all elements of the matrix in spiral order                                                     => 11 Oct 2024
-30. Generate a n*n matrix filled with elements 1 to n^2 in spiral order
+30. Generate a n*n matrix filled with elements 1 to n^2 in spiral order                                   => 11 Oct 2024
+========================================================================================================================
+PREFIX SUM APPROACH ~ 2D Array
+31. For a given matrix 'a' of dimension nxm and coordinates (l1, r1) to (l2, r2),                         => 11 Oct 2024
+    return the sum of rectangle from (l1, r1) to (l2, r2)
+32. Above question more optimised method ~ Pre calculating the horizontal sum for each row in the matrix  => 12 Oct 2024
+33. Above question more optimised method ~ Prefix sum over col and row both                               => 13 Oct 2024
