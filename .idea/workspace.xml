@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Spiral Matrix Creation done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray3.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Array done">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/recursion/A_Intro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/Time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +49,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A_Intro.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
     "Application.IsSorted.executor": "Run",
     "Application.LastOccurence.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.MatrixAdd.executor": "Run",
     "Application.MatrixMultiplication.executor": "Debug",
     "Application.Max.executor": "Run",
@@ -270,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728653494241</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Array done">
+      <option name="closed" value="true" />
+      <created>1728836250271</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728836250271</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,7 +300,8 @@
     <MESSAGE value="Pascal Triangle is done" />
     <MESSAGE value="Spiral Traverse done" />
     <MESSAGE value="Spiral Matrix Creation done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spiral Matrix Creation done" />
+    <MESSAGE value="Array done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,6 +323,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>6</line>
+          <properties class="Main" method="maximumPopulation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
