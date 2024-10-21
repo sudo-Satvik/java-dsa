@@ -1,27 +1,48 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();
-        int[][] mat = {{1950, 1961}, {1960, 1971}, {1970, 1981}};
-        System.out.println(main.maximumPopulation(mat));
+        int[][] mat = {{0, 0, 0}, {0, 1, 0}, {1, 1, 1}};
+        int[][] target = {{1, 1, 1}, {0, 1, 0}, {0, 0, 0}};
+        System.out.println(main.findRotation(mat, target));
     }
-    public int maximumPopulation(int[][] logs) {
-        int[] arr = new int[101];
-        for(int[] log : logs) {
-            int birth = log[0];
-            int death = log[1];
-            arr[birth-1950]++;
-            arr[death-1950]--;
+    public boolean findRotation(int[][] mat, int[][] target) {
+        int n = mat.length, rotCount = 0;
+        int[][] ansMat = rotate(mat, n, n);
+        while(rotCount < 4){
+            if(Arrays.deepEquals(ansMat, target)){
+                return true;
+            }
+            rotCount++;
         }
-
-        int max = arr[0];
-        int year = 1950;
-        for(int i = 1 ; i < 101; i++) {
-            arr[i] += arr[i-1];
-            if(arr[i] > max) {
-                max = arr[i];
-                year = 1950 + i;
+        return false;
+    }
+    public int[][] rotate(int[][] mat, int r, int c){
+        transpose(mat, r, c);
+        // Reversing row only
+        for(int i = 0 ; i < r ; i++){
+            reverse(mat, i);
+        }
+        return mat;
+    }
+    public void transpose(int[][] mat, int r, int c){
+        for(int i = 0 ; i < c ; i++){
+            for(int j = i ; j < r ; j++){
+                int temp = mat[i][j];
+                mat[i][j] = mat[j][i];
+                mat[j][i] = temp;
             }
         }
-        return year;
+    }
+    public void reverse(int[][] nums, int row){
+        int left = 0, right = nums[row].length - 1;
+        while (left < right) {
+            int temp = nums[row][left];
+            nums[row][left] = nums[row][right];
+            nums[row][right] = temp;
+            left++;
+            right--;
+        }
     }
 }
