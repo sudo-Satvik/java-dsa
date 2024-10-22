@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="the sum of its digit using recursion">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="p^q done both bruteforce and optimised">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/recursion/G_Multiples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/E_SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/E_SumOfDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,9 @@
     "Application.C_Factorial.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
+    "Application.F_PtoQ.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.G_Multiples.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
     "Application.IsSorted.executor": "Run",
     "Application.LastOccurence.executor": "Run",
@@ -312,11 +314,26 @@
       <option name="project" value="LOCAL" />
       <updated>1729491812945</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="count the digits">
+      <option name="closed" value="true" />
+      <created>1729506729082</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729506729082</updated>
+    </task>
+    <task id="LOCAL-00027" summary="p^q done both bruteforce and optimised">
+      <option name="closed" value="true" />
+      <created>1729518904253</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729518904253</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array initiated!" />
     <MESSAGE value="Array basics done part 1" />
     <MESSAGE value="TwoSum problem done" />
     <MESSAGE value="ThreeSum problem done" />
@@ -340,7 +357,9 @@
     <MESSAGE value="Recursion Revised" />
     <MESSAGE value="Recursion Basic Questions Done" />
     <MESSAGE value="the sum of its digit using recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="the sum of its digit using recursion" />
+    <MESSAGE value="count the digits" />
+    <MESSAGE value="p^q done both bruteforce and optimised" />
+    <option name="LAST_COMMIT_MESSAGE" value="p^q done both bruteforce and optimised" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
