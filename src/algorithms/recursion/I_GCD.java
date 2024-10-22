@@ -41,4 +41,9 @@ public class I_GCD {
         return euclidDivisionMethod(y, x % y);
     }
 
+    // Finding lcm
+    private static int lcm(int x, int y){
+        int gcd = euclidDivisionMethod(x, y);
+        return (x * y) / gcd;
+    }
 }
