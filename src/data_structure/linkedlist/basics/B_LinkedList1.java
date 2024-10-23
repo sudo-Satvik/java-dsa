@@ -1,5 +1,5 @@
 package data_structure.linkedlist.basics;
-
+// 01:09:55
 public class B_LinkedList1 {
     private static class Node{
         int data;
@@ -8,7 +8,21 @@ public class B_LinkedList1 {
             this.data = data;
         }
     }
-
+    // Used to help to prevent the changes in original LL
+    private static void display(Node head){
+        while(head != null){
+            System.out.print(head.data+" -> ");
+            head = head.next;
+        }
+    }
+    // Printing using recursively
+    private static void displayUsingRecursively(Node head){
+        if (head == null){
+            return;
+        }
+        System.out.print(head.data+" -> ");
+        displayUsingRecursively(head.next);
+    }
     public static void main(String[] args) {
         Node a = new Node(12);
         Node b = new Node(32);
@@ -33,9 +47,11 @@ public class B_LinkedList1 {
 //        }
 
 //        If LL size isn't defined
-        while (a != null){
-            System.out.print(a.data + " -> ");
-            a = a.next;
-        }
+//        while (a != null){
+//            System.out.print(a.data + " -> ");
+//            a = a.next;
+//        }
+//        display(a);
+        displayUsingRecursively(a);
     }
 }
