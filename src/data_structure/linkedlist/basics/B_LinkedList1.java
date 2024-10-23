@@ -19,10 +19,23 @@ public class B_LinkedList1 {
         b.next = c; // 12 -> 32 -> 43
         c.next = d; // 12 -> 32 -> 43 -> 44
         d.next = e; // 12 -> 32 -> 43 -> 44 -> 10
-        System.out.println(a.data);                         // Print a
-        System.out.println(a.next.data);                    // Print b
-        System.out.println(a.next.next.data);               // Print c
-        System.out.println(a.next.next.next.data);          // Print d
-        System.out.println(a.next.next.next.next.data);     // Print e
+//        System.out.println(a.data);                         // Print a
+//        System.out.println(a.next.data);                    // Print b
+//        System.out.println(a.next.next.data);               // Print c
+//        System.out.println(a.next.next.next.data);          // Print d
+//        System.out.println(a.next.next.next.next.data);     // Print e
+
+//        If LL size is defined
+//        Node temp = a;
+//        for (int i = 1; i <= 5; i++) {
+//            System.out.print(temp.data+" -> ");
+//            temp = temp.next;
+//        }
+
+//        If LL size isn't defined
+        while (a != null){
+            System.out.print(a.data + " -> ");
+            a = a.next;
+        }
     }
 }

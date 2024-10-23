@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All User Defined Datatype revised but records">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Learnt how to create LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1729677841724</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Learnt how to create LinkedList">
+      <option name="closed" value="true" />
+      <created>1729692577088</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692577088</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array Basic Pt.2 done" />
     <MESSAGE value="Two pointers part 1 done" />
     <MESSAGE value="Sorted Even Odd using two pointers" />
     <MESSAGE value="Square sorting done" />
@@ -411,7 +418,8 @@
     <MESSAGE value="Finding GCD via long division along with Euclid Algorithm method done" />
     <MESSAGE value="LCM done" />
     <MESSAGE value="All User Defined Datatype revised but records" />
-    <option name="LAST_COMMIT_MESSAGE" value="All User Defined Datatype revised but records" />
+    <MESSAGE value="Learnt how to create LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learnt how to create LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
