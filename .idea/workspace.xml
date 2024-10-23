@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="LCM done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/A_UserDefinedDatatype.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All User Defined Datatype revised but records">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.A_Intro.executor": "Run",
     "Application.A_UserDefinedDatatype.executor": "Run",
     "Application.B_CallStack.executor": "Run",
+    "Application.B_LinkedList1.executor": "Run",
     "Application.C_Factorial.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
@@ -373,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1729594336340</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="All User Defined Datatype revised but records">
+      <option name="closed" value="true" />
+      <created>1729677841724</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729677841724</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array Basic Pt.1 done" />
     <MESSAGE value="Array Basic Pt.2 done" />
     <MESSAGE value="Two pointers part 1 done" />
     <MESSAGE value="Sorted Even Odd using two pointers" />
@@ -402,7 +410,8 @@
     <MESSAGE value="Finding GCD via bruteforce done" />
     <MESSAGE value="Finding GCD via long division along with Euclid Algorithm method done" />
     <MESSAGE value="LCM done" />
-    <option name="LAST_COMMIT_MESSAGE" value="LCM done" />
+    <MESSAGE value="All User Defined Datatype revised but records" />
+    <option name="LAST_COMMIT_MESSAGE" value="All User Defined Datatype revised but records" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
