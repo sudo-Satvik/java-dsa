@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done till 1 hr 9 min">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/C_LengthLL.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="length finding done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/D_Implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.C_Factorial.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
+    "Application.D_Implementation.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.F_PtoQ.executor": "Run",
     "Application.Fibonacci.executor": "Run",
@@ -400,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1729699250048</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="length finding done">
+      <option name="closed" value="true" />
+      <created>1729751121969</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1729751121969</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sorted Even Odd using two pointers" />
     <MESSAGE value="Square sorting done" />
     <MESSAGE value="Prefix Sum done" />
     <MESSAGE value="2d matrix add done" />
@@ -429,7 +436,8 @@
     <MESSAGE value="All User Defined Datatype revised but records" />
     <MESSAGE value="Learnt how to create LinkedList" />
     <MESSAGE value="done till 1 hr 9 min" />
-    <option name="LAST_COMMIT_MESSAGE" value="done till 1 hr 9 min" />
+    <MESSAGE value="length finding done" />
+    <option name="LAST_COMMIT_MESSAGE" value="length finding done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
