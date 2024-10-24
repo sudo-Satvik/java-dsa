@@ -1,5 +1,4 @@
 package data_structure.linkedlist.basics;
-// 01:09:55
 public class B_LinkedList1 {
     private static class Node{
         int data;
@@ -17,9 +16,7 @@ public class B_LinkedList1 {
     }
     // Printing using recursively
     private static void displayUsingRecursively(Node head){
-        if (head == null){
-            return;
-        }
+        if (head == null)return;
         System.out.print(head.data+" -> ");
         displayUsingRecursively(head.next);
     }
