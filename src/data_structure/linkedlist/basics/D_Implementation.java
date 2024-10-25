@@ -1,5 +1,4 @@
 package data_structure.linkedlist.basics;
-//02:03:38
 public class D_Implementation{
     public static class Node{
         String data;
@@ -11,11 +10,14 @@ public class D_Implementation{
     private static class LinkedList{
         Node head = null;
         Node tail = null;
+        // optimising length
+        int size = 0;
         void insertAtStart(String data){
             Node temp = new Node(data);
             if (head == null) insertAtEnd(data);                  // head = temp;
             else temp.next = head;
             head = temp;
+            size++;
         }
         void insertAtEnd(String data){
             Node temp = new Node(data);
@@ -24,6 +26,7 @@ public class D_Implementation{
             // Non-Empty List
             else tail.next = temp;
             tail = temp;
+            size++;
         }
         void display(){
             Node temp = head;
@@ -34,14 +37,65 @@ public class D_Implementation{
             System.out.print("null");
             System.out.println(" ");
         }
-        int size(){
+        // Inserting element anywhere!
+        void insertAtIndex(int index, String value){
+            // Node of the value which is going to be created
+            Node t = new Node(value);
             Node temp = head;
-            int count = 0;
-            while (temp != null){
-                count++;
+            // Tail update fix
+            if (index == size){
+                insertAtEnd(value);
+                return;
+            }
+            if (index == 0){
+                insertAtStart(value);
+            }
+            /*
+            * Agar humko index 3 me add krna h iss diye hue LL me
+            * 1 -> 2 -> 3 -> 4 -> 5
+            * 0    1    2    3    4
+            * Toh humko index 0 se lekar 2 tk chalna pdega
+            * aur phr pehle insert krne wali value k next ko assign krna hoga index k wale pr
+            * then uske phle wale index ko data ke saath
+            * */
+            for (int i = 1; i < index; i++) {
+                // Simple Traversal
                 temp = temp.next;
             }
-            return count;
+            t.next = temp.next;
+            temp.next = t;
+            size++;
+        }
+//        int size(){
+//            Node temp = head;
+//            int count = 0;
+//            while (temp != null){
+//                count++;
+//                temp = temp.next;
+//            }
+//            return count;
+//        }
+//        O(n)
+        String getElement(int index){
+            Node temp = head;
+            for (int i = 1; i <= index; i++) {
+                temp = temp.next;
+            }
+            return temp.data;
+        }
+        void deleteAt(int index){
+            if (index == 0){
+                head = head.next;
+                size--;
+                return;
+            }
+            Node temp = head;
+            for (int i = 1; i < index ; i++) {
+                temp = temp.next;
+            }
+            tail = temp;
+            temp.next = temp.next.next;
+            size--;
         }
     }
     public static void main(String[] args){
@@ -65,6 +119,13 @@ public class D_Implementation{
         ll.display();
         ll.insertAtStart("Mayank");
         ll.display();
-        System.out.println("Size is: "+ll.size());
+        ll.insertAtIndex(5, "GTA");
+        ll.display();
+        ll.deleteAt(5); // last index
+        ll.display();
+        // Tail is not updated here
+        System.out.println(ll.tail.data);
+        System.out.println(ll.getElement(0));
+        System.out.println("Size is: "+ll.size);
     }
 }
