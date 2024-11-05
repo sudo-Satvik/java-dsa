@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="linkedlist implementation, inserting at head, inserting at tail, inserting at index x, deleting at index x, size: O(n) and O(1) done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor2.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="linkedlist done till remove from the end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/A_UserDefinedDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/B_LinkedList1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/C_LengthLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/D_Implementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1729856711767</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="linkedlist done till remove from the end">
+      <option name="closed" value="true" />
+      <created>1730721629390</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1730721629391</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2d matrix add done" />
     <MESSAGE value="Matrix Multiplication done ya'" />
     <MESSAGE value="Transpose using auxiliary space is done!" />
     <MESSAGE value="Rotation clockwise is done" />
@@ -460,7 +463,8 @@
     <MESSAGE value="length finding done" />
     <MESSAGE value="done till inserting at head and tail" />
     <MESSAGE value="linkedlist implementation, inserting at head, inserting at tail, inserting at index x, deleting at index x, size: O(n) and O(1) done" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist implementation, inserting at head, inserting at tail, inserting at index x, deleting at index x, size: O(n) and O(1) done" />
+    <MESSAGE value="linkedlist done till remove from the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist done till remove from the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,11 +486,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

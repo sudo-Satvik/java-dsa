@@ -8,10 +8,20 @@ public class LL1Constructor {
         linkedList.append(7);
         linkedList.append(8);
         linkedList.append(9);
-        linkedList.removeFromEnd();
+        linkedList.prepend(1);
+        linkedList.removeFirst();
+        linkedList.set(4, 12);
+        linkedList.insert(2, 100);
+        linkedList.remove(5);
         linkedList.getHead();
         linkedList.getTail();
         linkedList.getLength();
         linkedList.printList();
+        linkedList.reverse();
+        System.out.println();
+        linkedList.printList();
+
+//        System.out.println("\n"+linkedList.removeLast().data);
+//        System.out.println(linkedList.removeLast().data);
     }
 }

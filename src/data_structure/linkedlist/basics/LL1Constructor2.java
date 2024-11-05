@@ -57,24 +57,114 @@ public class LL1Constructor2 {
         length++;
     }
 
-    public void removeFromEnd() {
-        if (head == null) return; // Case 1: Empty list
-        if (head.next == null) {  // Case 2: Single-node list
-            head = null;
-            tail = null;
-            return;
-        }
-
+    public Node removeLast(){
+        // edge case 1 : for 0 element
+        if (length == 0) return null;
         Node temp = head;
         Node pre = head;
-        while (temp.next != null) {
+        while (temp.next != null){
+            pre = temp;
             temp = temp.next;
-            if (temp.next != null) pre = pre.next;
         }
-
         tail = pre;
-        pre.next = null;
+        tail.next = null;
         length--;
+        // edge case 2 : for 1 element
+        if (length == 0){
+            head = null;
+            tail = null;
+        }
+        return temp;
     }
 
+    public void prepend(int data){
+        Node preNode = new Node(data);
+        if (length == 0) tail = preNode;
+        else preNode.next = head;
+        head = preNode;
+        length++;
+    }
+
+    public Node removeFirst(){
+        if (length == 0) return null;
+        Node temp = head;
+        head = temp.next;
+        temp.next = null;
+        length--;
+        if (length == 0){
+            tail = null;
+        }
+        return temp;
+    }
+
+    public Node get(int index){
+        // edge case
+        if (index < 0 || index >= length) return null;
+        Node temp = head;
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+//    public boolean set(int index, int data){
+//        // edge case
+//        if (index <= 0 || index > length) return false;
+//        Node temp = head;
+//        for (int i = 1 ; i < index ; i++){
+//            temp = temp.next;
+//        }
+//        temp.data = data;
+//        return true;
+//    }
+//    or
+    public boolean set(int index, int data){
+        Node temp = get(index);
+        if (temp != null){
+            temp.data = data;
+            return true;
+        }
+        return false;
+    }
+    public boolean insert(int index, int data){
+        // Edge cases
+        if (index < 0 || index > length) return false;
+        if (index == 0) {
+            prepend(data);
+            return true;
+        }
+        if (index == length) {
+            append(data);
+            return true;
+        }
+        Node newData = new Node(data);
+        Node temp = get(index - 1);
+        newData.next = temp.next;
+        temp.next = newData;
+        length++;
+        return true;
+    }
+    public Node remove(int index){
+        // edge case
+        if (index < 0 || index >= length) return null;
+        if (index == 0) return removeFirst();
+        if (index == length) return removeLast();
+        Node temp = get(index - 1);
+        temp.next = temp.next.next;
+        length--;
+        return temp;
+    }
+    public void reverse(){
+        // reversing head and tail
+        Node temp = head;
+        head = tail;
+        tail = temp;
+        Node after = temp.next;
+        Node before = null;
+        for (int i = 0; i < length; i++) {
+            after = temp.next;
+            temp.next = before;
+            before = temp;
+            temp = after;
+        }
+    }
 }
