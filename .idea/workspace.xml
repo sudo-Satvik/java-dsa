@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="linkedlist done till remove from the end">
+      <changelist_data name="Satvik" email="sharmasatvik43@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/FromEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/basics/LL1Constructor2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Satvik &lt;sharmasatvik43@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -60,6 +65,7 @@
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.F_PtoQ.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FromEnd.executor": "Run",
     "Application.G_Multiples.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
     "Application.H_SumAlternate.executor": "Run",
@@ -109,9 +115,11 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG"
+    "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
