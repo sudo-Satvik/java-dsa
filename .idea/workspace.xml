@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="nth from end question done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/Intersection.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="intersecting code done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/MiddleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +82,7 @@
     "Application.MatrixMultiplication.executor": "Debug",
     "Application.Max.executor": "Run",
     "Application.MaxMin.executor": "Run",
+    "Application.MiddleNode.executor": "Run",
     "Application.Occurence.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
     "Application.PrefixSum1.executor": "Run",
@@ -455,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1731581562365</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="intersecting code done">
+      <option name="closed" value="true" />
+      <created>1731592819224</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592819224</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Transpose using auxiliary space is done!" />
     <MESSAGE value="Rotation clockwise is done" />
     <MESSAGE value="Pascal Triangle is done" />
     <MESSAGE value="Spiral Traverse done" />
@@ -484,7 +492,8 @@
     <MESSAGE value="linkedlist implementation, inserting at head, inserting at tail, inserting at index x, deleting at index x, size: O(n) and O(1) done" />
     <MESSAGE value="linkedlist done till remove from the end" />
     <MESSAGE value="nth from end question done" />
-    <option name="LAST_COMMIT_MESSAGE" value="nth from end question done" />
+    <MESSAGE value="intersecting code done" />
+    <option name="LAST_COMMIT_MESSAGE" value="intersecting code done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
