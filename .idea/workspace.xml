@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="delete middle node question done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/CycleLL1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/SplitOE.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="reverse with recursion done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/questions/LLReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,7 @@
     "Application.Intersection.executor": "Run",
     "Application.IsSorted.executor": "Run",
     "Application.LL1Constructor.executor": "Run",
+    "Application.LLReverse.executor": "Run",
     "Application.LastOccurence.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.MatrixAdd.executor": "Run",
@@ -483,12 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1731657003502</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="split odd even question done">
+      <option name="closed" value="true" />
+      <created>1732373752476</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1732373752476</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spiral Traverse done" />
-    <MESSAGE value="Spiral Matrix Creation done" />
     <MESSAGE value="Array done" />
     <MESSAGE value="Recursion Inititated" />
     <MESSAGE value="Recursion Revised" />
@@ -512,7 +518,9 @@
     <MESSAGE value="intersecting code done" />
     <MESSAGE value="middle node question done" />
     <MESSAGE value="delete middle node question done" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete middle node question done" />
+    <MESSAGE value="split odd even question done" />
+    <MESSAGE value="reverse with recursion done" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse with recursion done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
