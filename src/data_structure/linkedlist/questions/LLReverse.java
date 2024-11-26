@@ -39,6 +39,27 @@ public class LLReverse {
         head.next = null;
         return newHead;
     }
+
+    public static Node iterativeReverse(Node head) {
+        /*
+        * By using three pointers - prev, curr, agla
+        * 1. agla = curr.next
+        * 2. curr.next = null
+        * 3. prev = curr
+        * 4. curr = agla
+        * */
+        if (head == null || head.next == null) return head;
+        Node after = null;
+        Node curr = head;
+        Node before = null;
+        while(curr != null) {
+            after = curr.next;
+            curr.next = before;
+            before = curr;
+            curr = after;
+        }
+        return before;
+    }
     public static void main(String[] args) {
         Node a = new Node(3);
         Node b = new Node(5);
