@@ -53,4 +53,18 @@ public class DLLConstructor {
         }
         length++;
     }
+
+    public void removeLast() {
+        if (length == 0) return;
+        else if (length == 1) {
+            head = null;
+            tail = null;
+        } else {
+            Node temp = tail;
+            tail = tail.prev;
+            tail.next = null;
+            temp.prev = null;
+        }
+        length--;
+    }
 }
