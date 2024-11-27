@@ -1,4 +1,4 @@
-package data_structure.linkedlist.basics;
+package data_structure.linkedlist.singly_linkedlist.basics;
 // This is where the code will run
 public class LL1Constructor {
     public static void main(String[] args) {
