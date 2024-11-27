@@ -10,8 +10,10 @@ public class DLLMain {
         myDLL.append(15);
         myDLL.append(16);
 
-        myDLL.removeLast();
-        myDLL.removeLast();
+//        myDLL.removeLast();
+//        myDLL.removeLast();
+
+        myDLL.prepend(1000);
 
         myDLL.getHead();
         myDLL.getTail();

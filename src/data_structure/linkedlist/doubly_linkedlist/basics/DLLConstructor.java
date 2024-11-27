@@ -40,7 +40,7 @@ public class DLLConstructor {
         System.out.println("Length: " + length);
     }
 
-
+    // Operations on last elements
     public void append(int value) {
         Node newNode = new Node(value);
         if (length == 0) {
@@ -66,5 +66,19 @@ public class DLLConstructor {
             temp.prev = null;
         }
         length--;
+    }
+
+    // Operations on first element
+    public void prepend(int data) {
+        Node newNode = new Node(data);
+        if (length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
+        }
+        length++;
     }
 }

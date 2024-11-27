@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="append method done with an little experiment by me">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="remove last method done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLConstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,14 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Array initiated!">
-      <option name="closed" value="true" />
-      <created>1728034875381</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728034875381</updated>
     </task>
     <task id="LOCAL-00002" summary="Array basics done part 1">
       <option name="closed" value="true" />
@@ -535,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1732695884223</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="remove last method done">
+      <option name="closed" value="true" />
+      <created>1732697199462</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1732697199462</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the sum of its digit using recursion" />
     <MESSAGE value="count the digits" />
     <MESSAGE value="p^q done both bruteforce and optimised" />
     <MESSAGE value="Given a number 'num' and a value 'k'. Print k multiples of num done" />
@@ -564,7 +564,8 @@
     <MESSAGE value="singly linkedlist done" />
     <MESSAGE value="made some changes in the packages and doubly linkedlist initiated" />
     <MESSAGE value="append method done with an little experiment by me" />
-    <option name="LAST_COMMIT_MESSAGE" value="append method done with an little experiment by me" />
+    <MESSAGE value="remove last method done" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove last method done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
