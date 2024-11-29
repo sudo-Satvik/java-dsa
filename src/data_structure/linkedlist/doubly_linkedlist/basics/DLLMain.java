@@ -14,6 +14,9 @@ public class DLLMain {
 //        myDLL.removeLast();
 
         myDLL.prepend(1000);
+        myDLL.removeFirst();
+        myDLL.insertAt(3, 1023234);
+        myDLL.remove(3);
 
         myDLL.getHead();
         myDLL.getTail();
