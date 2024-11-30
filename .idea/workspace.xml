@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="prepend method done">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="doubly linkedlist is finished">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/circular_linkedlist/SinglyCL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +104,7 @@
     "Application.Search.executor": "Run",
     "Application.SecondMaximum.executor": "Run",
     "Application.SecondThirdSmallest.executor": "Run",
+    "Application.SinglyCL.executor": "Run",
     "Application.Sort01.executor": "Run",
     "Application.Sort01_TwoPointer.executor": "Run",
     "Application.SortEvenOdd.executor": "Debug",
@@ -144,14 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00003" summary="TwoSum problem done">
-      <option name="closed" value="true" />
-      <created>1728051519410</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728051519421</updated>
     </task>
     <task id="LOCAL-00004" summary="ThreeSum problem done">
       <option name="closed" value="true" />
@@ -537,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1732701065453</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="doubly linkedlist is finished">
+      <option name="closed" value="true" />
+      <created>1732881836049</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732881836049</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="p^q done both bruteforce and optimised" />
     <MESSAGE value="Given a number 'num' and a value 'k'. Print k multiples of num done" />
     <MESSAGE value="Given a number n. You have to find the sum up to n with alternate sign (- + - ....)" />
     <MESSAGE value="Finding GCD via bruteforce done" />
@@ -566,7 +565,8 @@
     <MESSAGE value="append method done with an little experiment by me" />
     <MESSAGE value="remove last method done" />
     <MESSAGE value="prepend method done" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepend method done" />
+    <MESSAGE value="doubly linkedlist is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="doubly linkedlist is finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
