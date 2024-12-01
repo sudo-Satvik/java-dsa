@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="doubly linkedlist is finished">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/circular_linkedlist/SinglyCL.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="initiated Stack and understands Stack using STL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +122,7 @@
     "Application.Transpose.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.Unique.executor": "Run",
+    "Application.UsingCollecFrameWork.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -133,7 +134,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG",
-    "settings.editor.selected.configurable": "leetcode.id"
+    "settings.editor.selected.configurable": "MTHome"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -144,22 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ThreeSum problem done">
-      <option name="closed" value="true" />
-      <created>1728052721152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728052721152</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Array Manipulation Pattern">
-      <option name="closed" value="true" />
-      <created>1728056063414</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728056063414</updated>
     </task>
     <task id="LOCAL-00006" summary="Array Manipulation Pattern 2">
       <option name="closed" value="true" />
@@ -537,12 +522,26 @@
       <option name="project" value="LOCAL" />
       <updated>1732881836049</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="circular linkedlist is inititated">
+      <option name="closed" value="true" />
+      <created>1732956158134</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1732956158134</updated>
+    </task>
+    <task id="LOCAL-00054" summary="initiated Stack and understands Stack using STL">
+      <option name="closed" value="true" />
+      <created>1733040452827</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1733040452827</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Given a number 'num' and a value 'k'. Print k multiples of num done" />
-    <MESSAGE value="Given a number n. You have to find the sum up to n with alternate sign (- + - ....)" />
     <MESSAGE value="Finding GCD via bruteforce done" />
     <MESSAGE value="Finding GCD via long division along with Euclid Algorithm method done" />
     <MESSAGE value="LCM done" />
@@ -566,7 +565,9 @@
     <MESSAGE value="remove last method done" />
     <MESSAGE value="prepend method done" />
     <MESSAGE value="doubly linkedlist is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="doubly linkedlist is finished" />
+    <MESSAGE value="circular linkedlist is inititated" />
+    <MESSAGE value="initiated Stack and understands Stack using STL" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiated Stack and understands Stack using STL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
