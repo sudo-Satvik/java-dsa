@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="initiated Stack and understands Stack using STL">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="added README.md">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/CopyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "Application.C_Factorial.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
+    "Application.CopyStack.executor": "Run",
     "Application.DLL.executor": "Run",
     "Application.DLLMain.executor": "Run",
     "Application.D_Implementation.executor": "Debug",
@@ -137,6 +138,26 @@
     "settings.editor.selected.configurable": "MTHome"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CopyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structure.stacks.basics.CopyStack" />
+      <module name="DataStructureAndAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structure.stacks.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CopyStack" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -145,14 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Array Manipulation Pattern 2">
-      <option name="closed" value="true" />
-      <created>1728057964778</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728057964778</updated>
     </task>
     <task id="LOCAL-00007" summary="Array Manipulation Pattern 2">
       <option name="closed" value="true" />
@@ -538,11 +551,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733040452827</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="added README.md">
+      <option name="closed" value="true" />
+      <created>1733041363373</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1733041363373</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finding GCD via bruteforce done" />
     <MESSAGE value="Finding GCD via long division along with Euclid Algorithm method done" />
     <MESSAGE value="LCM done" />
     <MESSAGE value="All User Defined Datatype revised but records" />
@@ -567,7 +587,8 @@
     <MESSAGE value="doubly linkedlist is finished" />
     <MESSAGE value="circular linkedlist is inititated" />
     <MESSAGE value="initiated Stack and understands Stack using STL" />
-    <option name="LAST_COMMIT_MESSAGE" value="initiated Stack and understands Stack using STL" />
+    <MESSAGE value="added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
