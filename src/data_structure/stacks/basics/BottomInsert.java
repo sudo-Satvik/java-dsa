@@ -14,6 +14,10 @@ public class BottomInsert {
         }
         System.out.println("Expected Stack: "+st);
     }
+    public static void insertAtBottomRecursively(Stack<Integer> st, int data) {
+        if (st.isEmpty()) return;
+        
+    }
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
         st.push(12);
