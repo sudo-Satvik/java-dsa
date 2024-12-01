@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="copy stack question done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomInsert.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="bottom insert done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/RecursiveDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/array/Time" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +100,7 @@
     "Application.PrefixSum4.executor": "Run",
     "Application.PresentQuery.executor": "Run",
     "Application.Question1.executor": "Run",
+    "Application.RecursiveDisplay.executor": "Run",
     "Application.Repeating.executor": "Run",
     "Application.ReversingArr.executor": "Run",
     "Application.Rotating1.executor": "Run",
@@ -139,6 +141,11 @@
     "settings.editor.selected.configurable": "MTHome"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data_structure/array" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CopyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structure.stacks.basics.CopyStack" />
@@ -167,14 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Array Basic Pt.1 done">
-      <option name="closed" value="true" />
-      <created>1728061153749</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728061153749</updated>
     </task>
     <task id="LOCAL-00009" summary="Array Basic Pt.2 done">
       <option name="closed" value="true" />
@@ -560,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733047481105</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="bottom insert done">
+      <option name="closed" value="true" />
+      <created>1733048766274</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1733048766274</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LCM done" />
     <MESSAGE value="All User Defined Datatype revised but records" />
     <MESSAGE value="Learnt how to create LinkedList" />
     <MESSAGE value="done till 1 hr 9 min" />
@@ -589,7 +595,8 @@
     <MESSAGE value="initiated Stack and understands Stack using STL" />
     <MESSAGE value="added README.md" />
     <MESSAGE value="copy stack question done" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy stack question done" />
+    <MESSAGE value="bottom insert done" />
+    <option name="LAST_COMMIT_MESSAGE" value="bottom insert done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
