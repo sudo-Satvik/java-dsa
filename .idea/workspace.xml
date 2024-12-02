@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="recursive display done">
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomInsert.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done for today">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
     "Application.B_CallStack.executor": "Run",
     "Application.B_LinkedList1.executor": "Run",
     "Application.BottomInsert.executor": "Run",
+    "Application.BottomRemove.executor": "Coverage",
     "Application.C_Factorial.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
@@ -172,14 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Sorted Even Odd using two pointers">
-      <option name="closed" value="true" />
-      <created>1728213752030</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728213752030</updated>
     </task>
     <task id="LOCAL-00012" summary="Square sorting done">
       <option name="closed" value="true" />
@@ -565,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733051254884</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="done for today">
+      <option name="closed" value="true" />
+      <created>1733072353828</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1733072353828</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learnt how to create LinkedList" />
     <MESSAGE value="done till 1 hr 9 min" />
     <MESSAGE value="length finding done" />
     <MESSAGE value="done till inserting at head and tail" />
@@ -594,7 +595,8 @@
     <MESSAGE value="copy stack question done" />
     <MESSAGE value="bottom insert done" />
     <MESSAGE value="recursive display done" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursive display done" />
+    <MESSAGE value="done for today" />
+    <option name="LAST_COMMIT_MESSAGE" value="done for today" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
