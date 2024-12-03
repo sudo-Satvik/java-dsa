@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="stack overflow done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingArray.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="stack overflow done and implementation using the array is also done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +117,7 @@
     "Application.SpiralTraverse.executor": "Run",
     "Application.SplitOE.executor": "Run",
     "Application.SquareSorting.executor": "Run",
+    "Application.StackOverflow.executor": "Run",
     "Application.StackUnderflow.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Sum2DArray.executor": "Run",
@@ -130,6 +131,7 @@
     "Application.Unique.executor": "Run",
     "Application.UsingArray.executor": "Run",
     "Application.UsingCollecFrameWork.executor": "Run",
+    "Application.UsingLinkedList.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -157,14 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Rotation clockwise is done">
-      <option name="closed" value="true" />
-      <created>1728638031157</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728638031157</updated>
     </task>
     <task id="LOCAL-00018" summary="Pascal Triangle is done">
       <option name="closed" value="true" />
@@ -550,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733224062342</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="stack overflow done and implementation using the array is also done">
+      <option name="closed" value="true" />
+      <created>1733227700619</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1733227700619</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linkedlist done till remove from the end" />
     <MESSAGE value="nth from end question done" />
     <MESSAGE value="intersecting code done" />
     <MESSAGE value="middle node question done" />
@@ -579,7 +580,8 @@
     <MESSAGE value="reverse with iteration as well as recursion done" />
     <MESSAGE value="stack underflow done" />
     <MESSAGE value="stack overflow done" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack overflow done" />
+    <MESSAGE value="stack overflow done and implementation using the array is also done" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack overflow done and implementation using the array is also done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
