@@ -37,9 +37,9 @@ public class ReverseStack {
         st.push(14);
         st.push(15);
         st.push(16);
-        System.out.println("Original Stack: "+st);
+        System.out.println("Original Stack:- "+st);
 //        reverseIterative(st);
         reverseRecursive(st);
-        System.out.println("Reversed Stack: "+st);
+        System.out.println("Reversed Stack:- "+st);
     }
 }
