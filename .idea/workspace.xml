@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="stack overflow done and implementation using the array is also done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingLinkedList.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="implementation with LinkedList done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/BalancedBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,98 +54,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A_Intro.executor": "Run",
-    "Application.A_UserDefinedDatatype.executor": "Run",
-    "Application.B_CallStack.executor": "Run",
-    "Application.B_LinkedList1.executor": "Run",
-    "Application.BottomInsert.executor": "Run",
-    "Application.BottomRemove.executor": "Run",
-    "Application.C_Factorial.executor": "Run",
-    "Application.C_LengthLL.executor": "Run",
-    "Application.ClockwiseRotateMatrix.executor": "Run",
-    "Application.CopyStack.executor": "Run",
-    "Application.DLL.executor": "Run",
-    "Application.DLLMain.executor": "Run",
-    "Application.D_Implementation.executor": "Debug",
-    "Application.DeleteMid.executor": "Run",
-    "Application.E_SumOfDigits.executor": "Debug",
-    "Application.Experiment.executor": "Run",
-    "Application.F_PtoQ.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FromEnd.executor": "Run",
-    "Application.G_Multiples.executor": "Run",
-    "Application.Greaterthancount.executor": "Run",
-    "Application.H_SumAlternate.executor": "Run",
-    "Application.I_GCD.executor": "Run",
-    "Application.Intersectiion.executor": "Run",
-    "Application.Intersection.executor": "Run",
-    "Application.IsSorted.executor": "Run",
-    "Application.LL1Constructor.executor": "Run",
-    "Application.LLReverse.executor": "Run",
-    "Application.LastOccurence.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MatrixAdd.executor": "Run",
-    "Application.MatrixMultiplication.executor": "Debug",
-    "Application.Max.executor": "Run",
-    "Application.MaxMin.executor": "Run",
-    "Application.MiddleNode.executor": "Run",
-    "Application.Occurence.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PascalTriangle.executor": "Run",
-    "Application.PrefixSum1.executor": "Run",
-    "Application.PrefixSum2.executor": "Run",
-    "Application.PrefixSum3.executor": "Run",
-    "Application.PrefixSum4.executor": "Run",
-    "Application.PresentQuery.executor": "Run",
-    "Application.Question1.executor": "Run",
-    "Application.RecursiveDisplay.executor": "Run",
-    "Application.Repeating.executor": "Run",
-    "Application.ReverseStack.executor": "Run",
-    "Application.ReversingArr.executor": "Run",
-    "Application.Rotating1.executor": "Run",
-    "Application.Rotating2.executor": "Run",
-    "Application.Search.executor": "Run",
-    "Application.SecondMaximum.executor": "Run",
-    "Application.SecondThirdSmallest.executor": "Run",
-    "Application.SinglyCL.executor": "Run",
-    "Application.Sort01.executor": "Run",
-    "Application.Sort01_TwoPointer.executor": "Run",
-    "Application.SortEvenOdd.executor": "Debug",
-    "Application.SpiralCreate.executor": "Run",
-    "Application.SpiralTraverse.executor": "Run",
-    "Application.SplitOE.executor": "Run",
-    "Application.SquareSorting.executor": "Run",
-    "Application.StackOverflow.executor": "Run",
-    "Application.StackUnderflow.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.Sum2DArray.executor": "Run",
-    "Application.Sum2DArray2.executor": "Run",
-    "Application.Sum2DArray3.executor": "Run",
-    "Application.Swapping.executor": "Run",
-    "Application.Swapping2.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.Transpose.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.Unique.executor": "Run",
-    "Application.UsingArray.executor": "Run",
-    "Application.UsingCollecFrameWork.executor": "Run",
-    "Application.UsingLinkedList.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG",
-    "settings.editor.selected.configurable": "MTHome"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A_Intro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A_UserDefinedDatatype.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B_CallStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B_LinkedList1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BottomInsert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BottomRemove.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C_Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C_LengthLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClockwiseRotateMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DLLMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D_Implementation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DeleteMid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E_SumOfDigits.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Experiment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.F_PtoQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FromEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.G_Multiples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greaterthancount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.H_SumAlternate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.I_GCD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersectiion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LL1Constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LLReverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LastOccurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MatrixAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixMultiplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Max.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Occurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSum1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSum3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSum4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PresentQuery.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursiveDisplay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Repeating.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversingArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rotating1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rotating2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondThirdSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyCL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort01_TwoPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortEvenOdd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpiralCreate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralTraverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitOE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareSorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackOverflow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackUnderflow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum2DArray2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum2DArray3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swapping.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swapping2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Transpose.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unique.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingCollecFrameWork.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Practice/Java + DSA/MissionFAANG&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTHome&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/data_structure/array" />
@@ -159,14 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Pascal Triangle is done">
-      <option name="closed" value="true" />
-      <created>1728642249468</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1728642249468</updated>
     </task>
     <task id="LOCAL-00019" summary="Spiral Traverse done">
       <option name="closed" value="true" />
@@ -552,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733227700619</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="implementation with LinkedList done">
+      <option name="closed" value="true" />
+      <created>1733241537342</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1733241537342</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nth from end question done" />
     <MESSAGE value="intersecting code done" />
     <MESSAGE value="middle node question done" />
     <MESSAGE value="delete middle node question done" />
@@ -581,7 +580,8 @@
     <MESSAGE value="stack underflow done" />
     <MESSAGE value="stack overflow done" />
     <MESSAGE value="stack overflow done and implementation using the array is also done" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack overflow done and implementation using the array is also done" />
+    <MESSAGE value="implementation with LinkedList done" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation with LinkedList done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
