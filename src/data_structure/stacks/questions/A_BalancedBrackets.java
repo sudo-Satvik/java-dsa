@@ -1,7 +1,7 @@
 package data_structure.stacks.questions;
 import java.util.*;
 // Check whether the given bracket sequence is balanced or not?
-public class BalancedBrackets {
+public class A_BalancedBrackets {
     public static boolean isBalanced(String str){
         Stack<Character> st = new Stack<>();
         int len = str.length();
