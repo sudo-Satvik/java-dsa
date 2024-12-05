@@ -19,8 +19,9 @@ public class G_StockSpan {
         return res;
     }
     public static void main(String[] args) {
-        int[] arr = {100, 80, 60, 70, 60, 75, 85};
+//        int[] arr = {100, 80, 60, 70, 60, 75, 85};
         // [1, 1, 1, 2, 1, 4, 6]
+        int[] arr = {100, 80, 70, 60, 70, 80, 85};
         System.out.println(Arrays.toString(stockSpan(arr)));
     }
 }
