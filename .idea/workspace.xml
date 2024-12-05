@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #4 remove consecutive subsequence done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/E_NextGreaterElement.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #5 next greater element done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/F_PreviousGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +74,10 @@
     "Application.D_Implementation.executor": "Debug",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
-    "Application.E_NextGreaterElement.executor": "Debug",
+    "Application.E_NextGreaterElement.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.Experiment.executor": "Run",
+    "Application.F_PreviousGreaterElement.executor": "Run",
     "Application.F_PtoQ.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FromEnd.executor": "Run",
@@ -164,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Recursion Revised">
-      <option name="closed" value="true" />
-      <created>1729403437056</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1729403437056</updated>
     </task>
     <task id="LOCAL-00024" summary="Recursion Basic Questions Done">
       <option name="closed" value="true" />
@@ -557,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733391416771</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="question #5 next greater element done">
+      <option name="closed" value="true" />
+      <created>1733408809776</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1733408809776</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reverse with recursion done" />
     <MESSAGE value="done with palindrome ll" />
     <MESSAGE value="singly linkedlist done" />
     <MESSAGE value="made some changes in the packages and doubly linkedlist initiated" />
@@ -586,7 +586,8 @@
     <MESSAGE value="question #2 balanced brackets done" />
     <MESSAGE value="question #3 valid parenthesis leetcode done" />
     <MESSAGE value="question #4 remove consecutive subsequence done" />
-    <option name="LAST_COMMIT_MESSAGE" value="question #4 remove consecutive subsequence done" />
+    <MESSAGE value="question #5 next greater element done" />
+    <option name="LAST_COMMIT_MESSAGE" value="question #5 next greater element done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,9 +611,9 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/questions/E_NextGreaterElement.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/questions/F_PreviousGreaterElement.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
