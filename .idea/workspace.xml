@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #3 valid parenthesis leetcode done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/D_RemoveConsecutiveSubsequence.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #4 remove consecutive subsequence done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/E_NextGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,7 @@
     "Application.D_Implementation.executor": "Debug",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
+    "Application.E_NextGreaterElement.executor": "Debug",
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.Experiment.executor": "Run",
     "Application.F_PtoQ.executor": "Run",
@@ -163,14 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Recursion Inititated">
-      <option name="closed" value="true" />
-      <created>1729350975683</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1729350975683</updated>
     </task>
     <task id="LOCAL-00023" summary="Recursion Revised">
       <option name="closed" value="true" />
@@ -556,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733384386615</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="question #4 remove consecutive subsequence done">
+      <option name="closed" value="true" />
+      <created>1733391416771</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1733391416771</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="split odd even question done" />
     <MESSAGE value="reverse with recursion done" />
     <MESSAGE value="done with palindrome ll" />
     <MESSAGE value="singly linkedlist done" />
@@ -585,7 +585,8 @@
     <MESSAGE value="question #1 balanced brackets done" />
     <MESSAGE value="question #2 balanced brackets done" />
     <MESSAGE value="question #3 valid parenthesis leetcode done" />
-    <option name="LAST_COMMIT_MESSAGE" value="question #3 valid parenthesis leetcode done" />
+    <MESSAGE value="question #4 remove consecutive subsequence done" />
+    <option name="LAST_COMMIT_MESSAGE" value="question #4 remove consecutive subsequence done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -607,6 +608,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/questions/E_NextGreaterElement.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
