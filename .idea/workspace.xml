@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #2 balanced brackets done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/C_ValidParenthesis.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #3 valid parenthesis leetcode done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/D_RemoveConsecutiveSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +66,13 @@
     "Application.BottomRemove.executor": "Run",
     "Application.C_Factorial.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
+    "Application.C_ValidParenthesis.executor": "Run",
     "Application.ClockwiseRotateMatrix.executor": "Run",
     "Application.CopyStack.executor": "Run",
     "Application.DLL.executor": "Run",
     "Application.DLLMain.executor": "Run",
     "Application.D_Implementation.executor": "Debug",
+    "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.Experiment.executor": "Run",
@@ -161,14 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Array done">
-      <option name="closed" value="true" />
-      <created>1728836250271</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1728836250271</updated>
     </task>
     <task id="LOCAL-00022" summary="Recursion Inititated">
       <option name="closed" value="true" />
@@ -554,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733314023755</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="question #3 valid parenthesis leetcode done">
+      <option name="closed" value="true" />
+      <created>1733384386614</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1733384386615</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="delete middle node question done" />
     <MESSAGE value="split odd even question done" />
     <MESSAGE value="reverse with recursion done" />
     <MESSAGE value="done with palindrome ll" />
@@ -583,7 +584,8 @@
     <MESSAGE value="implementation with LinkedList done" />
     <MESSAGE value="question #1 balanced brackets done" />
     <MESSAGE value="question #2 balanced brackets done" />
-    <option name="LAST_COMMIT_MESSAGE" value="question #2 balanced brackets done" />
+    <MESSAGE value="question #3 valid parenthesis leetcode done" />
+    <option name="LAST_COMMIT_MESSAGE" value="question #3 valid parenthesis leetcode done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
