@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #1 balanced brackets done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/B_BalancedBrackets2.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="question #2 balanced brackets done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/C_ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/A_BalancedBrackets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG",
-    "settings.editor.selected.configurable": "MTHome"
+    "settings.editor.selected.configurable": "0d570cb2-96df-43cc-80da-7f777e6d0afe"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -162,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Spiral Matrix Creation done">
-      <option name="closed" value="true" />
-      <created>1728653494241</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1728653494241</updated>
     </task>
     <task id="LOCAL-00021" summary="Array done">
       <option name="closed" value="true" />
@@ -555,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733310981858</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="question #2 balanced brackets done">
+      <option name="closed" value="true" />
+      <created>1733314023755</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1733314023755</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="middle node question done" />
     <MESSAGE value="delete middle node question done" />
     <MESSAGE value="split odd even question done" />
     <MESSAGE value="reverse with recursion done" />
@@ -584,7 +582,8 @@
     <MESSAGE value="stack overflow done and implementation using the array is also done" />
     <MESSAGE value="implementation with LinkedList done" />
     <MESSAGE value="question #1 balanced brackets done" />
-    <option name="LAST_COMMIT_MESSAGE" value="question #1 balanced brackets done" />
+    <MESSAGE value="question #2 balanced brackets done" />
+    <option name="LAST_COMMIT_MESSAGE" value="question #2 balanced brackets done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
