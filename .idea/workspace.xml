@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="added custom test case in stock span" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="revision stock span">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/questions/H_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,14 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00027" summary="p^q done both bruteforce and optimised">
-      <option name="closed" value="true" />
-      <created>1729518904253</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1729518904253</updated>
     </task>
     <task id="LOCAL-00028" summary="Given a number 'num' and a value 'k'. Print k multiples of num done">
       <option name="closed" value="true" />
@@ -556,11 +551,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733413573255</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="revision stock span">
+      <option name="closed" value="true" />
+      <created>1733463757399</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1733463757399</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="append method done with an little experiment by me" />
     <MESSAGE value="remove last method done" />
     <MESSAGE value="prepend method done" />
     <MESSAGE value="doubly linkedlist is finished" />
@@ -585,7 +587,8 @@
     <MESSAGE value="question #6 previous greater element done" />
     <MESSAGE value="question #7 stock span done" />
     <MESSAGE value="added custom test case in stock span" />
-    <option name="LAST_COMMIT_MESSAGE" value="added custom test case in stock span" />
+    <MESSAGE value="revision stock span" />
+    <option name="LAST_COMMIT_MESSAGE" value="revision stock span" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
