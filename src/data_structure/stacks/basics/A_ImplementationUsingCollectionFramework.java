@@ -1,7 +1,7 @@
 package data_structure.stacks.basics;
 import java.util.Stack;
 
-public class ImplementationUsingCollectionFramework {
+public class A_ImplementationUsingCollectionFramework {
     public static void main(String[] args) {
         // Stack created
         Stack<Integer> stack = new Stack<>();

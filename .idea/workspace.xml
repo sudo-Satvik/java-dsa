@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="infix done for brackets but have some bug">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/ImplementationUsingCollectionFramework.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="revising the stack after a long break">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/B_CopyingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/advance/Infix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/advance/Infix2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomInsert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/BottomRemove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/CopyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/RecursiveDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/ReverseStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/StackOverflow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/StackUnderflow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingCollecFrameWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/UsingLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/A_BalancedBrackets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/B_BalancedBrackets2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/C_ValidParenthesis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/D_RemoveConsecutiveSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/E_NextGreaterElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/F_PreviousGreaterElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/G_StockSpan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/questions/H_MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/ImplementationUsingCollectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/A_ImplementationUsingCollectionFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +61,7 @@
     "Application.A_UserDefinedDatatype.executor": "Run",
     "Application.B_BalancedBrackets2.executor": "Run",
     "Application.B_CallStack.executor": "Run",
+    "Application.B_CopyingStack.executor": "Run",
     "Application.B_LinkedList1.executor": "Run",
     "Application.BalancedBrackets.executor": "Run",
     "Application.BottomInsert.executor": "Run",
@@ -189,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00032" summary="LCM done">
-      <option name="closed" value="true" />
-      <created>1729594336340</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1729594336340</updated>
     </task>
     <task id="LOCAL-00033" summary="All User Defined Datatype revised but records">
       <option name="closed" value="true" />
@@ -582,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1733860680354</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="revising the stack after a long break">
+      <option name="closed" value="true" />
+      <created>1734952628197</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1734952628198</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initiated Stack and understands Stack using STL" />
     <MESSAGE value="added README.md" />
     <MESSAGE value="copy stack question done" />
     <MESSAGE value="bottom insert done" />
@@ -611,7 +592,8 @@
     <MESSAGE value="infix done but not understanded" />
     <MESSAGE value="infix done and understood" />
     <MESSAGE value="infix done for brackets but have some bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="infix done for brackets but have some bug" />
+    <MESSAGE value="revising the stack after a long break" />
+    <option name="LAST_COMMIT_MESSAGE" value="revising the stack after a long break" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
