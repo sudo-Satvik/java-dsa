@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="revising the stack after a long break">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/B_CopyingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/basics/ImplementationUsingCollectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/A_ImplementationUsingCollectionFramework.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done deep copying the stack" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,14 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00033" summary="All User Defined Datatype revised but records">
-      <option name="closed" value="true" />
-      <created>1729677841724</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1729677841724</updated>
     </task>
     <task id="LOCAL-00034" summary="Learnt how to create LinkedList">
       <option name="closed" value="true" />
@@ -564,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734952628198</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="done deep copying the stack">
+      <option name="closed" value="true" />
+      <created>1734953674270</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1734953674270</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added README.md" />
     <MESSAGE value="copy stack question done" />
     <MESSAGE value="bottom insert done" />
     <MESSAGE value="recursive display done" />
@@ -593,7 +588,8 @@
     <MESSAGE value="infix done and understood" />
     <MESSAGE value="infix done for brackets but have some bug" />
     <MESSAGE value="revising the stack after a long break" />
-    <option name="LAST_COMMIT_MESSAGE" value="revising the stack after a long break" />
+    <MESSAGE value="done deep copying the stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="done deep copying the stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
