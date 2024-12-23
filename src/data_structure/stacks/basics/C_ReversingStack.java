@@ -22,6 +22,13 @@ public class C_ReversingStack {
             st.push(res.pop());
         }
     }
+    public static void reverseRecursive(Stack<Integer> st) {
+        if (st.isEmpty()) return;
+        int top = st.pop();
+        System.out.print(top + " ");
+        reverseRecursive(st);
+        st.push(top);
+    }
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
         st.push(12);
@@ -34,7 +41,9 @@ public class C_ReversingStack {
 
         reversingStack(st);
 
-        System.out.println("The reversed stack: "+st);
+        System.out.println("The iterative reversed stack: "+st);
+
+        reverseRecursive(st);
 
     }
 }
