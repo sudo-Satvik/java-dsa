@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done recursion concept in stack for displaying the elements in reverse order">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/G_RemoveAtBottom.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="remove from the bottom of the stack logic is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/H_RemoveAtAnyIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +90,7 @@
     "Application.G_RemoveAtBottom.executor": "Run",
     "Application.G_StockSpan.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
+    "Application.H_RemoveAtAnyIndex.executor": "Run",
     "Application.H_SumAlternate.executor": "Run",
     "Application.I_GCD.executor": "Run",
     "Application.ImplementationUsingCollectionFramework.executor": "Run",
@@ -175,14 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00038" summary="linkedlist implementation, inserting at head, inserting at tail, inserting at index x, deleting at index x, size: O(n) and O(1) done">
-      <option name="closed" value="true" />
-      <created>1729856711767</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1729856711767</updated>
     </task>
     <task id="LOCAL-00039" summary="linkedlist done till remove from the end">
       <option name="closed" value="true" />
@@ -568,11 +561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734967255466</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="remove from the bottom of the stack logic is done">
+      <option name="closed" value="true" />
+      <created>1734967859976</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1734967859976</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bottom remove done" />
     <MESSAGE value="reverse with iteration as well as recursion done" />
     <MESSAGE value="stack underflow done" />
     <MESSAGE value="stack overflow done" />
@@ -597,7 +597,8 @@
     <MESSAGE value="done insert at bottom" />
     <MESSAGE value="done insert at any index from first or last" />
     <MESSAGE value="done recursion concept in stack for displaying the elements in reverse order" />
-    <option name="LAST_COMMIT_MESSAGE" value="done recursion concept in stack for displaying the elements in reverse order" />
+    <MESSAGE value="remove from the bottom of the stack logic is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove from the bottom of the stack logic is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
