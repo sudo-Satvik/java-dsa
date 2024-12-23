@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done reversing the stack">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/D_InsertAtBottom.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done insert at bottom">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/E_InsertAtAnyIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +74,10 @@
     "Application.DLL.executor": "Run",
     "Application.DLLMain.executor": "Run",
     "Application.D_Implementation.executor": "Debug",
-    "Application.D_InsertAtBottom.executor": "Debug",
+    "Application.D_InsertAtBottom.executor": "Run",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
+    "Application.E_InsertAtAnyIndex.executor": "Run",
     "Application.E_NextGreaterElement.executor": "Run",
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.Experiment.executor": "Run",
@@ -172,14 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00035" summary="done till 1 hr 9 min">
-      <option name="closed" value="true" />
-      <created>1729699250048</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1729699250048</updated>
     </task>
     <task id="LOCAL-00036" summary="length finding done">
       <option name="closed" value="true" />
@@ -565,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734953924828</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="done insert at bottom">
+      <option name="closed" value="true" />
+      <created>1734954859259</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1734954859259</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bottom insert done" />
     <MESSAGE value="recursive display done" />
     <MESSAGE value="done for today" />
     <MESSAGE value="bottom remove done" />
@@ -594,7 +594,8 @@
     <MESSAGE value="revising the stack after a long break" />
     <MESSAGE value="done deep copying the stack" />
     <MESSAGE value="done reversing the stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="done reversing the stack" />
+    <MESSAGE value="done insert at bottom" />
+    <option name="LAST_COMMIT_MESSAGE" value="done insert at bottom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,8 +625,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/basics/D_InsertAtBottom.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="13" />
+          <line>6</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
