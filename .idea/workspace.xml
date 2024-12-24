@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="remove from any index element of the stack logic is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/I_ArrayImplementation.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="array implementation done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/J_LinkedListImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +100,8 @@
     "Application.Intersectiion.executor": "Run",
     "Application.Intersection.executor": "Run",
     "Application.IsSorted.executor": "Run",
+    "Application.J_ArrayListImplementaion.executor": "Run",
+    "Application.J_LinkedListImplementation.executor": "Run",
     "Application.LL1Constructor.executor": "Run",
     "Application.LLReverse.executor": "Run",
     "Application.LastOccurence.executor": "Run",
@@ -177,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00040" summary="nth from end question done">
-      <option name="closed" value="true" />
-      <created>1731581562365</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1731581562365</updated>
     </task>
     <task id="LOCAL-00041" summary="intersecting code done">
       <option name="closed" value="true" />
@@ -570,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734969395671</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="array implementation done">
+      <option name="closed" value="true" />
+      <created>1735024209945</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1735024209946</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stack underflow done" />
     <MESSAGE value="stack overflow done" />
     <MESSAGE value="stack overflow done and implementation using the array is also done" />
     <MESSAGE value="implementation with LinkedList done" />
@@ -599,7 +600,8 @@
     <MESSAGE value="done recursion concept in stack for displaying the elements in reverse order" />
     <MESSAGE value="remove from the bottom of the stack logic is done" />
     <MESSAGE value="remove from any index element of the stack logic is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove from any index element of the stack logic is done" />
+    <MESSAGE value="array implementation done" />
+    <option name="LAST_COMMIT_MESSAGE" value="array implementation done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
