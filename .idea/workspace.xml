@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done balanced bracket problem by my own">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done balanced bracket problem 2 by my own">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/C_ValidBracketsLeetCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00044" summary="split odd even question done">
-      <option name="closed" value="true" />
-      <created>1732373752476</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1732373752476</updated>
     </task>
     <task id="LOCAL-00045" summary="reverse with recursion done">
       <option name="closed" value="true" />
@@ -573,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735029888191</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="done balanced bracket problem 2 by my own">
+      <option name="closed" value="true" />
+      <created>1735034810698</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1735034810698</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementation with LinkedList done" />
     <MESSAGE value="question #1 balanced brackets done" />
     <MESSAGE value="question #2 balanced brackets done" />
     <MESSAGE value="question #3 valid parenthesis leetcode done" />
@@ -602,7 +602,8 @@
     <MESSAGE value="array implementation done" />
     <MESSAGE value="linkedlist implementation done" />
     <MESSAGE value="done balanced bracket problem by my own" />
-    <option name="LAST_COMMIT_MESSAGE" value="done balanced bracket problem by my own" />
+    <MESSAGE value="done balanced bracket problem 2 by my own" />
+    <option name="LAST_COMMIT_MESSAGE" value="done balanced bracket problem 2 by my own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,6 +635,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/basics/D_InsertAtBottom.java</url>
           <line>6</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

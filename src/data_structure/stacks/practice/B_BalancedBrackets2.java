@@ -25,7 +25,7 @@ public class B_BalancedBrackets2 {
         return count;
     }
     public static void main(String[] args) {
-        String str = "()(((()))))))";
+        String str = "(()()(";
         System.out.println("Ans: " + balancedParenthesis2(str));
     }
 }
