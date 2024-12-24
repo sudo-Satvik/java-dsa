@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="array implementation done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/basics/J_LinkedListImplementation.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="linkedlist implementation done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/A_BalancedBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A_BalancedBrackets.executor": "Run",
     "Application.A_Intro.executor": "Run",
     "Application.A_UserDefinedDatatype.executor": "Run",
     "Application.B_BalancedBrackets2.executor": "Run",
@@ -179,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00041" summary="intersecting code done">
-      <option name="closed" value="true" />
-      <created>1731592819224</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1731592819224</updated>
     </task>
     <task id="LOCAL-00042" summary="middle node question done">
       <option name="closed" value="true" />
@@ -572,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735024209946</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="linkedlist implementation done">
+      <option name="closed" value="true" />
+      <created>1735027428674</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1735027428674</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stack overflow done" />
     <MESSAGE value="stack overflow done and implementation using the array is also done" />
     <MESSAGE value="implementation with LinkedList done" />
     <MESSAGE value="question #1 balanced brackets done" />
@@ -601,7 +601,8 @@
     <MESSAGE value="remove from the bottom of the stack logic is done" />
     <MESSAGE value="remove from any index element of the stack logic is done" />
     <MESSAGE value="array implementation done" />
-    <option name="LAST_COMMIT_MESSAGE" value="array implementation done" />
+    <MESSAGE value="linkedlist implementation done" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist implementation done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -633,6 +634,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/basics/D_InsertAtBottom.java</url>
           <line>6</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/A_BalancedBrackets.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
