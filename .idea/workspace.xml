@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="done leetcode question of valid parenthesis by my own">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/C_ValidBracketsLeetCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/B_BalancedBrackets2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/D_ConsecutiveSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/D_ConsecutiveSubsequences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
     "Application.CopyStack.executor": "Run",
     "Application.DLL.executor": "Run",
     "Application.DLLMain.executor": "Run",
+    "Application.D_ConsecutiveSubsequences.executor": "Run",
     "Application.D_Implementation.executor": "Debug",
     "Application.D_InsertAtBottom.executor": "Run",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
@@ -182,14 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00046" summary="done with palindrome ll">
-      <option name="closed" value="true" />
-      <created>1732605732222</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1732605732222</updated>
     </task>
     <task id="LOCAL-00047" summary="singly linkedlist done">
       <option name="closed" value="true" />
@@ -575,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735036501268</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="done leetcode question of valid parenthesis by my own">
+      <option name="closed" value="true" />
+      <created>1735036536638</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1735036536638</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -646,6 +646,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/C_ValidBracketsLeetCode.java</url>
           <line>20</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/D_ConsecutiveSubsequences.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
