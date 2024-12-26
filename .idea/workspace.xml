@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="stockspan problem done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/H_NextSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/J_LargestRectangleHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="next smaller element problem done by own">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/I_PreviousSmallerElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +92,12 @@
     "Application.G_RemoveAtBottom.executor": "Run",
     "Application.G_StockSpan.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
-    "Application.H_NextSmallerElement.executor": "Run",
+    "Application.H_NextSmallerElement.executor": "Debug",
     "Application.H_RemoveAtAnyIndex.executor": "Run",
     "Application.H_SumAlternate.executor": "Run",
     "Application.I_ArrayImplementation.executor": "Run",
     "Application.I_GCD.executor": "Run",
+    "Application.I_PreviousSmallerElement.executor": "Run",
     "Application.ImplementationUsingCollectionFramework.executor": "Run",
     "Application.Infix.executor": "Run",
     "Application.Infix2.executor": "Run",
@@ -184,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00053" summary="circular linkedlist is inititated">
-      <option name="closed" value="true" />
-      <created>1732956158134</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1732956158134</updated>
     </task>
     <task id="LOCAL-00054" summary="initiated Stack and understands Stack using STL">
       <option name="closed" value="true" />
@@ -577,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735211865053</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="next smaller element problem done by own">
+      <option name="closed" value="true" />
+      <created>1735216618439</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1735216618439</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="question #7 stock span done" />
     <MESSAGE value="added custom test case in stock span" />
     <MESSAGE value="revision stock span" />
     <MESSAGE value="minstack question done" />
@@ -606,7 +604,8 @@
     <MESSAGE value="next greater element by optimised method is added" />
     <MESSAGE value="previous greater element is implemented by my own" />
     <MESSAGE value="stockspan problem done" />
-    <option name="LAST_COMMIT_MESSAGE" value="stockspan problem done" />
+    <MESSAGE value="next smaller element problem done by own" />
+    <option name="LAST_COMMIT_MESSAGE" value="next smaller element problem done by own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,6 +657,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/E_NextGreaterElement.java</url>
           <line>49</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/H_NextSmallerElement.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
