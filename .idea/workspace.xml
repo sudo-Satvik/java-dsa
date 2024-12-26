@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="next greater element by optimised method is added">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/F_PreviousGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/G_StockSpan.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="previous greater element is implemented by my own">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/G_StockSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/G_StockSpan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,14 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00051" summary="prepend method done">
-      <option name="closed" value="true" />
-      <created>1732701065453</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1732701065453</updated>
     </task>
     <task id="LOCAL-00052" summary="doubly linkedlist is finished">
       <option name="closed" value="true" />
@@ -576,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735207614501</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="previous greater element is implemented by my own">
+      <option name="closed" value="true" />
+      <created>1735209831911</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1735209831911</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="question #5 next greater element done" />
     <MESSAGE value="question #6 previous greater element done" />
     <MESSAGE value="question #7 stock span done" />
     <MESSAGE value="added custom test case in stock span" />
@@ -605,7 +603,8 @@
     <MESSAGE value="done cosequences concept by raghav sir" />
     <MESSAGE value="next greater element by bruteforce method is added" />
     <MESSAGE value="next greater element by optimised method is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="next greater element by optimised method is added" />
+    <MESSAGE value="previous greater element is implemented by my own" />
+    <option name="LAST_COMMIT_MESSAGE" value="previous greater element is implemented by my own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
