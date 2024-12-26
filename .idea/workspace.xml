@@ -183,14 +183,6 @@
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
     </task>
-    <task id="LOCAL-00049" summary="append method done with an little experiment by me">
-      <option name="closed" value="true" />
-      <created>1732695884223</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1732695884223</updated>
-    </task>
     <task id="LOCAL-00050" summary="remove last method done">
       <option name="closed" value="true" />
       <created>1732697199462</created>
@@ -575,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735111233291</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="next greater element by bruteforce method is added">
+      <option name="closed" value="true" />
+      <created>1735137981750</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1735137981750</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -651,6 +651,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/D_ConsecutiveSubsequences.java</url>
           <line>33</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/E_NextGreaterElement.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
