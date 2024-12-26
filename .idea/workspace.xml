@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="next greater element by bruteforce method is added">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="next greater element by optimised method is added">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/F_PreviousGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/G_StockSpan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/E_NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/E_NextGreaterElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00050" summary="remove last method done">
-      <option name="closed" value="true" />
-      <created>1732697199462</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1732697199462</updated>
     </task>
     <task id="LOCAL-00051" summary="prepend method done">
       <option name="closed" value="true" />
@@ -575,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735137981750</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="next greater element by optimised method is added">
+      <option name="closed" value="true" />
+      <created>1735207614501</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1735207614501</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="question #4 remove consecutive subsequence done" />
     <MESSAGE value="question #5 next greater element done" />
     <MESSAGE value="question #6 previous greater element done" />
     <MESSAGE value="question #7 stock span done" />
@@ -604,7 +604,8 @@
     <MESSAGE value="done leetcode question of valid parenthesis by my own" />
     <MESSAGE value="done cosequences concept by raghav sir" />
     <MESSAGE value="next greater element by bruteforce method is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="next greater element by bruteforce method is added" />
+    <MESSAGE value="next greater element by optimised method is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="next greater element by optimised method is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,7 +655,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/practice/E_NextGreaterElement.java</url>
-          <line>47</line>
+          <line>49</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
