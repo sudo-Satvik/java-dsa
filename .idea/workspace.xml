@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="next smaller element problem done by own">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/I_PreviousSmallerElement.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="previous smaller element problem done by own">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/practice/J_LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/practice/J_LargestRectangleHistogram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,7 @@
     "Application.Intersection.executor": "Run",
     "Application.IsSorted.executor": "Run",
     "Application.J_ArrayListImplementaion.executor": "Run",
+    "Application.J_LargestRectangleHistogram.executor": "Run",
     "Application.J_LinkedListImplementation.executor": "Run",
     "Application.LL1Constructor.executor": "Run",
     "Application.LLReverse.executor": "Run",
@@ -183,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00054" summary="initiated Stack and understands Stack using STL">
-      <option name="closed" value="true" />
-      <created>1733040452827</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1733040452827</updated>
     </task>
     <task id="LOCAL-00055" summary="added README.md">
       <option name="closed" value="true" />
@@ -576,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735216618439</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="previous smaller element problem done by own">
+      <option name="closed" value="true" />
+      <created>1735217017147</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1735217017147</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added custom test case in stock span" />
     <MESSAGE value="revision stock span" />
     <MESSAGE value="minstack question done" />
     <MESSAGE value="infix done but not understanded" />
@@ -605,7 +606,8 @@
     <MESSAGE value="previous greater element is implemented by my own" />
     <MESSAGE value="stockspan problem done" />
     <MESSAGE value="next smaller element problem done by own" />
-    <option name="LAST_COMMIT_MESSAGE" value="next smaller element problem done by own" />
+    <MESSAGE value="previous smaller element problem done by own" />
+    <option name="LAST_COMMIT_MESSAGE" value="previous smaller element problem done by own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
