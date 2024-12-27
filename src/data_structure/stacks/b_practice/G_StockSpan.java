@@ -1,4 +1,4 @@
-package data_structure.stacks.practice;
+package data_structure.stacks.b_practice;
 import java.util.*;
 
 /**

@@ -1,4 +1,4 @@
-package data_structure.stacks.basics;
+package data_structure.stacks.a_basics;
 import java.util.Stack;
 
 /*Remove the element from bottom*/

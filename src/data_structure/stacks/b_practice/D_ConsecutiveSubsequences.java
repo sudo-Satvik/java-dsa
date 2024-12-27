@@ -1,6 +1,5 @@
-package data_structure.stacks.practice;
+package data_structure.stacks.b_practice;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 

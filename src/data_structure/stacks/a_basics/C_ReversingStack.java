@@ -1,10 +1,9 @@
-package data_structure.stacks.basics;
+package data_structure.stacks.a_basics;
 
 import java.util.Stack;
 
-/* Copying elements from one stack to another in same order*/
-public class B_CopyingStack {
-    public static Stack<Integer> deepCopyMaker(Stack<Integer> st){
+public class C_ReversingStack {
+    public static void reversingStack(Stack<Integer> st){
         Stack<Integer> res = new Stack<>();
         Stack<Integer> temp = new Stack<>();
 
@@ -17,7 +16,18 @@ public class B_CopyingStack {
         while (!temp.isEmpty()) {
             res.push(temp.pop());
         }
-        return res;
+
+        // res -> st
+        while (!res.isEmpty()) {
+            st.push(res.pop());
+        }
+    }
+    public static void reverseRecursive(Stack<Integer> st) {
+        if (st.isEmpty()) return;
+        int top = st.pop();
+        System.out.print(top + " ");
+        reverseRecursive(st);
+        st.push(top);
     }
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
@@ -29,9 +39,11 @@ public class B_CopyingStack {
 
         System.out.println("The original stack: "+st);
 
-        Stack<Integer> cst = deepCopyMaker(st);
-//        cst.pop();            /*Proof that orig doesn't get affect*/
-        System.out.println("The copied stack: "+cst);
+        reversingStack(st);
+
+        System.out.println("The iterative reversed stack: "+st);
+
+        reverseRecursive(st);
 
     }
 }

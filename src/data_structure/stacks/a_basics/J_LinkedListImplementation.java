@@ -1,4 +1,4 @@
-package data_structure.stacks.basics;
+package data_structure.stacks.a_basics;
 
 /*Implementation of Stack using the LinkedList*/
 

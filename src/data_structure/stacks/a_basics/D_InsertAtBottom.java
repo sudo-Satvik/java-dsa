@@ -1,4 +1,4 @@
-package data_structure.stacks.basics;
+package data_structure.stacks.a_basics;
 
 // Inserting an element at the bottom of the stack
 

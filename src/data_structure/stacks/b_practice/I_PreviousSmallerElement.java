@@ -1,20 +1,20 @@
-package data_structure.stacks.practice;
+package data_structure.stacks.b_practice;
 
 import java.util.Arrays;
 import java.util.Stack;
 
-public class H_NextSmallerElement {
-    public static int[] nextSmallerElement(int[] arr) {
+public class I_PreviousSmallerElement {
+    public static int[] previousSmallerElement(int[] arr) {
         int n = arr.length;
         int[] res = new int[n];
         Stack<Integer> st = new Stack<>();
-        res[n - 1] = -1;
-        st.push(arr[n-1]);
-        for (int i = n - 2 ; i >= 0 ; i--) {
-            while (st.size() > 0 && st.peek() > arr[i]) {
+        res[0] = -1;
+        st.push(arr[0]);
+        for (int i = 1; i < n; i++) {
+            while (st.size() > 0 && st.peek() >= arr[i]) {
                 st.pop();
             }
-            if (st.size() == 0) res[i] = -1;
+            if (st.isEmpty()) res[i] = -1;
             else res[i] = st.peek();
             st.push(arr[i]);
         }
@@ -23,6 +23,6 @@ public class H_NextSmallerElement {
     public static void main(String[] args) {
         int[] arr = {1, 3, 2, 1, 8, 6, 3, 4};
         System.out.println("Original Array: " + Arrays.toString(arr));
-        System.out.println("Answer Array: " + Arrays.toString(nextSmallerElement(arr)));
+        System.out.println("Answer Array: " + Arrays.toString(previousSmallerElement(arr)));
     }
 }

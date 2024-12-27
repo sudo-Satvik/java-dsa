@@ -1,6 +1,4 @@
-package data_structure.stacks.basics;
-
-import java.util.Arrays;
+package data_structure.stacks.a_basics;
 
 /*Implementation of the array in a stack*/
 public class I_ArrayImplementation {
