@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/A_InfixEvaluation.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Initiated the infix evaluation">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/B_InfixEvaluation2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00058" summary="recursive display done">
-      <option name="closed" value="true" />
-      <created>1733049866611</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1733049866611</updated>
     </task>
     <task id="LOCAL-00059" summary="recursive display done">
       <option name="closed" value="true" />
@@ -580,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735285738556</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Initiated the infix evaluation">
+      <option name="closed" value="true" />
+      <created>1735300634278</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1735300634278</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="infix done and understood" />
     <MESSAGE value="infix done for brackets but have some bug" />
     <MESSAGE value="revising the stack after a long break" />
     <MESSAGE value="done deep copying the stack" />
@@ -609,7 +608,8 @@
     <MESSAGE value="largest rectangle in the histogram is done" />
     <MESSAGE value="min stack question is also done" />
     <MESSAGE value="changes done in packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes done in packages" />
+    <MESSAGE value="Initiated the infix evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initiated the infix evaluation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
