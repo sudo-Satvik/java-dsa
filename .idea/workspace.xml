@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Prefix to Postfix conversion by my own">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/H_PostfixToPrefixConversion.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Postfix to prefix is done by my own">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/I_PostfixToInfixConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,10 +102,12 @@
     "Application.G_StockSpan.executor": "Run",
     "Application.Greaterthancount.executor": "Run",
     "Application.H_NextSmallerElement.executor": "Debug",
+    "Application.H_PostfixToPrefixConversion.executor": "Run",
     "Application.H_RemoveAtAnyIndex.executor": "Run",
     "Application.H_SumAlternate.executor": "Run",
     "Application.I_ArrayImplementation.executor": "Run",
     "Application.I_GCD.executor": "Run",
+    "Application.I_PostfixToInfixConversion.executor": "Run",
     "Application.I_PreviousSmallerElement.executor": "Run",
     "Application.ImplementationUsingCollectionFramework.executor": "Run",
     "Application.Infix.executor": "Run",
@@ -192,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00065" summary="stack overflow done">
-      <option name="closed" value="true" />
-      <created>1733224062342</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1733224062342</updated>
     </task>
     <task id="LOCAL-00066" summary="stack overflow done and implementation using the array is also done">
       <option name="closed" value="true" />
@@ -585,11 +581,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735371958060</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Postfix to prefix is done by my own">
+      <option name="closed" value="true" />
+      <created>1735372323361</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1735372323361</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done recursion concept in stack for displaying the elements in reverse order" />
     <MESSAGE value="remove from the bottom of the stack logic is done" />
     <MESSAGE value="remove from any index element of the stack logic is done" />
     <MESSAGE value="array implementation done" />
@@ -614,7 +617,8 @@
     <MESSAGE value="Postfix evaluation done by my own" />
     <MESSAGE value="Prefix evaluation is done by my own" />
     <MESSAGE value="Prefix to Postfix conversion by my own" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prefix to Postfix conversion by my own" />
+    <MESSAGE value="Postfix to prefix is done by my own" />
+    <option name="LAST_COMMIT_MESSAGE" value="Postfix to prefix is done by my own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
