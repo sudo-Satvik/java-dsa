@@ -1,4 +1,4 @@
-package data_infixucture.stacks.c_infix_prefix_postfix;
+package data_structure.stacks.c_infix_prefix_postfix;
 import java.util.*;
 /**
  * @Infix: a + b        where a, b belongs to {1,2,3,...,9}
