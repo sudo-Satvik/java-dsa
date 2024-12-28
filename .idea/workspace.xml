@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Postfix to prefix is done by my own">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/I_PostfixToInfixConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Postfix to Infix Conversion done by own">
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00066" summary="stack overflow done and implementation using the array is also done">
-      <option name="closed" value="true" />
-      <created>1733227700619</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1733227700619</updated>
     </task>
     <task id="LOCAL-00067" summary="implementation with LinkedList done">
       <option name="closed" value="true" />
@@ -589,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735372323361</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Postfix to Infix Conversion done by own">
+      <option name="closed" value="true" />
+      <created>1735373279430</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1735373279431</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove from the bottom of the stack logic is done" />
     <MESSAGE value="remove from any index element of the stack logic is done" />
     <MESSAGE value="array implementation done" />
     <MESSAGE value="linkedlist implementation done" />
@@ -618,7 +615,8 @@
     <MESSAGE value="Prefix evaluation is done by my own" />
     <MESSAGE value="Prefix to Postfix conversion by my own" />
     <MESSAGE value="Postfix to prefix is done by my own" />
-    <option name="LAST_COMMIT_MESSAGE" value="Postfix to prefix is done by my own" />
+    <MESSAGE value="Postfix to Infix Conversion done by own" />
+    <option name="LAST_COMMIT_MESSAGE" value="Postfix to Infix Conversion done by own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
