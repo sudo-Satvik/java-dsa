@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Infix to prefix conversion is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/D_InfixToPostfixExpressions.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Infix to postfix conversion is done by my own">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/E_PrefixEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/F_PostfixEvaluation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +81,7 @@
     "Application.DLLMain.executor": "Run",
     "Application.D_ConsecutiveSubsequences.executor": "Run",
     "Application.D_Implementation.executor": "Debug",
+    "Application.D_InfixToPostfixExpressions.executor": "Run",
     "Application.D_InsertAtBottom.executor": "Run",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
@@ -88,6 +90,7 @@
     "Application.E_SumOfDigits.executor": "Debug",
     "Application.Experiment.executor": "Run",
     "Application.F_DisplayingStackUsingRecursion.executor": "Run",
+    "Application.F_PostfixEvaluation.executor": "Run",
     "Application.F_PreviousGreaterElement.executor": "Run",
     "Application.F_PtoQ.executor": "Run",
     "Application.Fibonacci.executor": "Run",
@@ -189,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00061" summary="bottom remove done">
-      <option name="closed" value="true" />
-      <created>1733139215275</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1733139215276</updated>
     </task>
     <task id="LOCAL-00062" summary="reverse with iteration as well as recursion done">
       <option name="closed" value="true" />
@@ -582,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735367934155</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Infix to postfix conversion is done by my own">
+      <option name="closed" value="true" />
+      <created>1735369794355</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1735369794355</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done deep copying the stack" />
     <MESSAGE value="done reversing the stack" />
     <MESSAGE value="done insert at bottom" />
     <MESSAGE value="done insert at any index from first or last" />
@@ -611,7 +613,8 @@
     <MESSAGE value="Initiated the infix evaluation" />
     <MESSAGE value="Infix evaluation done with the braces priority" />
     <MESSAGE value="Infix to prefix conversion is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infix to prefix conversion is done" />
+    <MESSAGE value="Infix to postfix conversion is done by my own" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infix to postfix conversion is done by my own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
