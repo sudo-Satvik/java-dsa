@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Infix evaluation done with the braces priority">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/C_InfixToPrefixExpressions.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Infix to prefix conversion is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/D_InfixToPostfixExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00060" summary="done for today">
-      <option name="closed" value="true" />
-      <created>1733072353828</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1733072353828</updated>
     </task>
     <task id="LOCAL-00061" summary="bottom remove done">
       <option name="closed" value="true" />
@@ -582,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735309079508</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Infix to prefix conversion is done">
+      <option name="closed" value="true" />
+      <created>1735367934155</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1735367934155</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="revising the stack after a long break" />
     <MESSAGE value="done deep copying the stack" />
     <MESSAGE value="done reversing the stack" />
     <MESSAGE value="done insert at bottom" />
@@ -611,7 +610,8 @@
     <MESSAGE value="changes done in packages" />
     <MESSAGE value="Initiated the infix evaluation" />
     <MESSAGE value="Infix evaluation done with the braces priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infix evaluation done with the braces priority" />
+    <MESSAGE value="Infix to prefix conversion is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infix to prefix conversion is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
