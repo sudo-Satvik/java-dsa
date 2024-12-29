@@ -4,9 +4,102 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Sliding window maximum done by bruteforce method">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Sliding window maximum done by optimised method under O(n) time complexity">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/M_SlidingWindowMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/A_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/A_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/B_CallStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/B_CallStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/C_Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/C_Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/D_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/D_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/E_SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/E_SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/F_PtoQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/F_PtoQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/G_Multiples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/G_Multiples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/H_SumAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/H_SumAlternate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/I_GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/d_recursion/I_GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/ClockwiseRotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/ClockwiseRotateMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Greaterthancount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Greaterthancount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/IsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/IsSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/LastOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/LastOccurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/MatrixAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/MatrixAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/MatrixMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/MatrixMultiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/MaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/MaxMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Occurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Occurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PrefixSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PrefixSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PrefixSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PrefixSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PrefixSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PrefixSum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PrefixSum4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PrefixSum4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/PresentQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/PresentQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Repeating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Repeating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/ReversingArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/ReversingArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Rotating1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Rotating1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Rotating2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Rotating2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SecondMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/SecondMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sort01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sort01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sort01_TwoPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sort01_TwoPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/SortEvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SpiralCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/SpiralCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SpiralTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/SpiralTraverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/SquareSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/SquareSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sum2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sum2DArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Sum2DArray3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Sum2DArray3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Swapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Swapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Swapping2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Swapping2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Time" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Transpose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Transpose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/array/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/a_array/Unique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/circular_linkedlist/SinglyCL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/circular_linkedlist/SinglyCL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/doubly_linkedlist/basics/DLLConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/DLLMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/doubly_linkedlist/basics/DLLMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/doubly_linkedlist/basics/Experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/doubly_linkedlist/basics/Experiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/basics/LL1Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/basics/LL1Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/basics/LL1Constructor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/basics/LL1Constructor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/DeleteMid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/DeleteMid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/FromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/FromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/LLReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/LLReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/MiddleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/linkedlist/singly_linkedlist/questions/SplitOE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/b_linkedlist/singly_linkedlist/questions/SplitOE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/A_ImplementationUsingCollectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/A_ImplementationUsingCollectionFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/B_CopyingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/B_CopyingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/C_ReversingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/C_ReversingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/D_InsertAtBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/D_InsertAtBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/E_InsertAtAnyIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/E_InsertAtAnyIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/F_DisplayingStackUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/F_DisplayingStackUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/G_RemoveAtBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/G_RemoveAtBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/H_RemoveAtAnyIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/H_RemoveAtAnyIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/I_ArrayImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/I_ArrayImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/a_basics/J_LinkedListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/J_LinkedListImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/A_BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/A_BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/B_BalancedBrackets2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/B_BalancedBrackets2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/C_ValidBracketsLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/C_ValidBracketsLeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/D_ConsecutiveSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/D_ConsecutiveSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/E_NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/E_NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/F_PreviousGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/F_PreviousGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/G_StockSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/G_StockSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/H_NextSmallerElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/H_NextSmallerElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/I_PreviousSmallerElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/I_PreviousSmallerElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/J_LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/J_LargestRectangleHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/K_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/K_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/L_CelebrityProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/L_CelebrityProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/A_InfixEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/A_InfixEvaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/B_InfixEvaluation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/B_InfixEvaluation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/C_InfixToPrefixExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/C_InfixToPrefixExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/D_InfixToPostfixExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/D_InfixToPostfixExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/E_PrefixEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/E_PrefixEvaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/F_PostfixEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/F_PostfixEvaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/G_PrefixToPostConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/G_PrefixToPostConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/H_PostfixToPrefixConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/H_PostfixToPrefixConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/I_PostfixToInfixConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/I_PostfixToInfixConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/c_stacks/c_infix_prefix_postfix/J_PrefixToInfixConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +216,7 @@
     "Application.LLReverse.executor": "Run",
     "Application.L_CelebrityProblem.executor": "Run",
     "Application.LastOccurence.executor": "Run",
-    "Application.M_SlidingWindowMax.executor": "Debug",
+    "Application.M_SlidingWindowMax.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.MatrixAdd.executor": "Run",
     "Application.MatrixMultiplication.executor": "Debug",
@@ -198,14 +291,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00070" summary="question #3 valid parenthesis leetcode done">
-      <option name="closed" value="true" />
-      <created>1733384386614</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1733384386615</updated>
     </task>
     <task id="LOCAL-00071" summary="question #4 remove consecutive subsequence done">
       <option name="closed" value="true" />
@@ -591,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735466632720</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Sliding window maximum done by optimised method under O(n) time complexity">
+      <option name="closed" value="true" />
+      <created>1735467449693</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1735467449693</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done balanced bracket problem by my own" />
     <MESSAGE value="done balanced bracket problem 2 by my own" />
     <MESSAGE value="done leetcode question of valid parenthesis by my own" />
     <MESSAGE value="done cosequences concept by raghav sir" />
@@ -620,67 +712,68 @@
     <MESSAGE value="Prefix to Infix Conversion done by own" />
     <MESSAGE value="Celebrity question done by stack under O(n) time complexity" />
     <MESSAGE value="Sliding window maximum done by bruteforce method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding window maximum done by bruteforce method" />
+    <MESSAGE value="Sliding window maximum done by optimised method under O(n) time complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding window maximum done by optimised method under O(n) time complexity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/data_structure/array/SortEvenOdd.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/a_array/SortEvenOdd.java</url>
           <line>9</line>
-          <properties class="data_structure.array.SortEvenOdd" method="sort">
+          <properties class="data_structure.a_array.SortEvenOdd" method="sort">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
-          <url>file://$PROJECT_DIR$/src/data_structure/array/MatrixMultiplication.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/a_array/MatrixMultiplication.java</url>
           <line>12</line>
-          <properties class="data_structure.array.MatrixMultiplication" method="multiply">
+          <properties class="data_structure.a_array.MatrixMultiplication" method="multiply">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/questions/F_PreviousGreaterElement.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/questions/F_PreviousGreaterElement.java</url>
           <line>25</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/a_basics/D_InsertAtBottom.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/a_basics/D_InsertAtBottom.java</url>
           <line>6</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/B_BalancedBrackets2.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/B_BalancedBrackets2.java</url>
           <line>28</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/C_ValidBracketsLeetCode.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/C_ValidBracketsLeetCode.java</url>
           <line>20</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/D_ConsecutiveSubsequences.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/D_ConsecutiveSubsequences.java</url>
           <line>33</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/E_NextGreaterElement.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/E_NextGreaterElement.java</url>
           <line>49</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/H_NextSmallerElement.java</url>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/H_NextSmallerElement.java</url>
           <line>25</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/M_SlidingWindowMax.java</url>
+          <line>54</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
