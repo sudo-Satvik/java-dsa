@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Celebrity question done by stack under O(n) time complexity">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Sliding window maximum done by bruteforce method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
     "Application.LLReverse.executor": "Run",
     "Application.L_CelebrityProblem.executor": "Run",
     "Application.LastOccurence.executor": "Run",
-    "Application.M_SlidingWindowMax.executor": "Run",
+    "Application.M_SlidingWindowMax.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.MatrixAdd.executor": "Run",
     "Application.MatrixMultiplication.executor": "Debug",
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00069" summary="question #2 balanced brackets done">
-      <option name="closed" value="true" />
-      <created>1733314023755</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1733314023755</updated>
     </task>
     <task id="LOCAL-00070" summary="question #3 valid parenthesis leetcode done">
       <option name="closed" value="true" />
@@ -591,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735457558584</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Sliding window maximum done by bruteforce method">
+      <option name="closed" value="true" />
+      <created>1735466632720</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1735466632720</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linkedlist implementation done" />
     <MESSAGE value="done balanced bracket problem by my own" />
     <MESSAGE value="done balanced bracket problem 2 by my own" />
     <MESSAGE value="done leetcode question of valid parenthesis by my own" />
@@ -620,7 +619,8 @@
     <MESSAGE value="Postfix to Infix Conversion done by own" />
     <MESSAGE value="Prefix to Infix Conversion done by own" />
     <MESSAGE value="Celebrity question done by stack under O(n) time complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Celebrity question done by stack under O(n) time complexity" />
+    <MESSAGE value="Sliding window maximum done by bruteforce method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding window maximum done by bruteforce method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,6 +677,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/H_NextSmallerElement.java</url>
           <line>25</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/stacks/b_practice/M_SlidingWindowMax.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
