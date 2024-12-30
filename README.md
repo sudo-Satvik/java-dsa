@@ -28,12 +28,12 @@
 - Circular Linked List
 - Applications of Linked Lists (Queue Implementation, Polynomial Representation)
 
-### 2.4 **Stacks** *(in progress...)*
+### 2.4 **Stacks** *(done)*
 - Definition and Operations: Push, Pop, Peek
 - Stack Implementation: STL(Standard Template Library)/Collection Framework, Array-based, Linked List-based
 - Applications (Expression Evaluation, Balancing Parentheses, Recursion)
 
-### 2.5 **Queues**
+### 2.5 **Queues** *(in progress...)*
 - Definition and Operations: Enqueue, Dequeue, Front, Rear
 - Types of Queues: Simple Queue, Circular Queue, Double Ended Queue (Deque)
 - Applications (Scheduling, Resource Management)
