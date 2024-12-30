@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="printing of the queue is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/d_queue/a_basics/B_ArrayImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="update the README.md progress">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,22 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00074" summary="question #7 stock span done">
-      <option name="closed" value="true" />
-      <created>1733412353721</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1733412353721</updated>
-    </task>
-    <task id="LOCAL-00075" summary="added custom test case in stock span">
-      <option name="closed" value="true" />
-      <created>1733413573254</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1733413573255</updated>
     </task>
     <task id="LOCAL-00076" summary="revision stock span">
       <option name="closed" value="true" />
@@ -594,12 +577,26 @@
       <option name="project" value="LOCAL" />
       <updated>1735551355329</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Implementation of Array code is been done">
+      <option name="closed" value="true" />
+      <created>1735553957881</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1735553957881</updated>
+    </task>
+    <task id="LOCAL-00124" summary="update the README.md progress">
+      <option name="closed" value="true" />
+      <created>1735554111668</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1735554111668</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="next greater element by bruteforce method is added" />
-    <MESSAGE value="next greater element by optimised method is added" />
     <MESSAGE value="previous greater element is implemented by my own" />
     <MESSAGE value="stockspan problem done" />
     <MESSAGE value="next smaller element problem done by own" />
@@ -623,7 +620,9 @@
     <MESSAGE value="creating relevant directories" />
     <MESSAGE value="Implemented queues using Collection Frameworks" />
     <MESSAGE value="printing of the queue is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="printing of the queue is done" />
+    <MESSAGE value="Implementation of Array code is been done" />
+    <MESSAGE value="update the README.md progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the README.md progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

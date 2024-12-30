@@ -18,7 +18,7 @@
 - Dynamic Arrays (ArrayList in Java, Vectors in C++)
 
 ### 2.2 **Strings** *(need to revise!)*
-- Definition and Basics of Arrays (1D, 2D, Multi-dimensional)
+- Definition and Basics of String
 - String Operations: Concatenation, Substring, Length, Search, Comparison
 - String Algorithms: String Reversal, Palindrome, Anagram Detection, Character Frequency Count, String Matching
 
