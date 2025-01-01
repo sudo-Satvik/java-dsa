@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Implementation of Queue by using the LinkedList is demonstrated by the code">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/d_queue/a_basics/D_CircularQueueInArray.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/d_queue/a_basics/E_CircularQueueLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +89,7 @@
     "Application.D_InsertAtBottom.executor": "Run",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
+    "Application.E_CircularQueueLinkedList.executor": "Run",
     "Application.E_InsertAtAnyIndex.executor": "Run",
     "Application.E_NextGreaterElement.executor": "Run",
     "Application.E_PrefixEvaluation.executor": "Run",
@@ -203,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00078" summary="infix done but not understanded">
-      <option name="closed" value="true" />
-      <created>1733578236422</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1733578236422</updated>
     </task>
     <task id="LOCAL-00079" summary="infix done and understood">
       <option name="closed" value="true" />
@@ -596,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1735667526942</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array">
+      <option name="closed" value="true" />
+      <created>1735723084838</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1735723084839</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stockspan problem done" />
     <MESSAGE value="next smaller element problem done by own" />
     <MESSAGE value="previous smaller element problem done by own" />
     <MESSAGE value="largest rectangle in the histogram is done" />
@@ -625,7 +625,8 @@
     <MESSAGE value="Implementation of Array code is been done" />
     <MESSAGE value="update the README.md progress" />
     <MESSAGE value="Implementation of Queue by using the LinkedList is demonstrated by the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Queue by using the LinkedList is demonstrated by the code" />
+    <MESSAGE value="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
