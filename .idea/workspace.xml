@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Implementation of LinkedList in Queue via Circular Queue demonstrating the optimised way to use space of the array">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/d_queue/a_basics/F_DequeCollectionFramework.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Reversal of the queue is done by my own">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/d_queue/b_practice/C_ReverseFirstK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "Application.B_CopyingStack.executor": "Run",
     "Application.B_InfixEvaluation2.executor": "Run",
     "Application.B_LinkedList1.executor": "Run",
+    "Application.B_ReverseQueue.executor": "Run",
     "Application.BalancedBrackets.executor": "Run",
     "Application.BottomInsert.executor": "Run",
     "Application.BottomRemove.executor": "Run",
@@ -75,6 +76,7 @@
     "Application.C_InfixToPrefixExpressions.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
     "Application.C_LinkedListImplementation.executor": "Run",
+    "Application.C_ReverseFirstK.executor": "Run",
     "Application.C_ReversingStack.executor": "Run",
     "Application.C_ValidBracketsLeetCode.executor": "Run",
     "Application.C_ValidParenthesis.executor": "Run",
@@ -205,22 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00080" summary="infix done for brackets but have some bug">
-      <option name="closed" value="true" />
-      <created>1733860680354</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1733860680354</updated>
-    </task>
-    <task id="LOCAL-00081" summary="revising the stack after a long break">
-      <option name="closed" value="true" />
-      <created>1734952628197</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1734952628198</updated>
     </task>
     <task id="LOCAL-00082" summary="done deep copying the stack">
       <option name="closed" value="true" />
@@ -598,12 +584,26 @@
       <option name="project" value="LOCAL" />
       <updated>1735733319615</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Implementation of Deque using Collection Framework is done">
+      <option name="closed" value="true" />
+      <created>1735735013863</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1735735013863</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Reversal of the queue is done by my own">
+      <option name="closed" value="true" />
+      <created>1735833488650</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1735833488650</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="previous smaller element problem done by own" />
-    <MESSAGE value="largest rectangle in the histogram is done" />
     <MESSAGE value="min stack question is also done" />
     <MESSAGE value="changes done in packages" />
     <MESSAGE value="Initiated the infix evaluation" />
@@ -627,7 +627,9 @@
     <MESSAGE value="Implementation of Queue by using the LinkedList is demonstrated by the code" />
     <MESSAGE value="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
     <MESSAGE value="Implementation of LinkedList in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of LinkedList in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
+    <MESSAGE value="Implementation of Deque using Collection Framework is done" />
+    <MESSAGE value="Reversal of the queue is done by my own" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reversal of the queue is done by my own" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
