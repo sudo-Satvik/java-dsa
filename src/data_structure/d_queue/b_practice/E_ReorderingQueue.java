@@ -36,7 +36,6 @@ public class E_ReorderingQueue {
         queue.add(66);
         queue.add(77);
         queue.add(88);
-
         System.out.println("Original Queue: " + queue);
         reorder(queue);
         System.out.println("Final Answer: " + queue);
