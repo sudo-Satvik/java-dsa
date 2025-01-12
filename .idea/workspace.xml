@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Created the first hashmap using collection framework">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/a_basics/B_HashMapCollecFramework.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All important methods of hashmap using collection framework">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/A_MostFrequentElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
     "Application.A_FirstHashMap.executor": "Run",
     "Application.A_InfixEvaluation.executor": "Run",
     "Application.A_Intro.executor": "Run",
+    "Application.A_MostFrequentElement.executor": "Run",
     "Application.A_PrintingQueue.executor": "Run",
     "Application.A_UserDefinedDatatype.executor": "Run",
     "Application.A_UsingCollectionFramework.executor": "Run",
@@ -211,14 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00087" summary="remove from the bottom of the stack logic is done">
-      <option name="closed" value="true" />
-      <created>1734967859976</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1734967859976</updated>
     </task>
     <task id="LOCAL-00088" summary="remove from any index element of the stack logic is done">
       <option name="closed" value="true" />
@@ -604,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736137452454</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="All important methods of hashmap using collection framework">
+      <option name="closed" value="true" />
+      <created>1736608244500</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1736608244500</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Infix to prefix conversion is done" />
     <MESSAGE value="Infix to postfix conversion is done by my own" />
     <MESSAGE value="Postfix evaluation done by my own" />
     <MESSAGE value="Prefix evaluation is done by my own" />
@@ -633,7 +633,8 @@
     <MESSAGE value="First negative question done" />
     <MESSAGE value="Reordering of the queue is done" />
     <MESSAGE value="Created the first hashmap using collection framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the first hashmap using collection framework" />
+    <MESSAGE value="All important methods of hashmap using collection framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="All important methods of hashmap using collection framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
