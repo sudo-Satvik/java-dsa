@@ -1,6 +1,7 @@
 package data_structure.e_hashmap.b_questions;
 import java.util.*;
-
+// Brute force array method Time Complexity: O(nlogn + m)
+// This code time complexity: O(n)
 public class A_MostFrequentElement {
     public static int mostFreq(int[] arr){
         int max = -1;

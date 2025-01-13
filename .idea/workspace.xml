@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All important methods of hashmap using collection framework">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/A_MostFrequentElement.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Most frequent element in an array problem is solved using HashMap">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/a_basics/C_CustomHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/a_basics/D_Rehashing_Optimised_CustomHashmap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/A_MostFrequentElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/A_MostFrequentElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +77,7 @@
     "Application.BalancedBrackets.executor": "Run",
     "Application.BottomInsert.executor": "Run",
     "Application.BottomRemove.executor": "Run",
+    "Application.C_CustomHashmap.executor": "Run",
     "Application.C_Factorial.executor": "Run",
     "Application.C_InfixToPrefixExpressions.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
@@ -93,6 +96,7 @@
     "Application.D_Implementation.executor": "Debug",
     "Application.D_InfixToPostfixExpressions.executor": "Run",
     "Application.D_InsertAtBottom.executor": "Run",
+    "Application.D_Rehashing_Optimised_CustomHashmap.executor": "Run",
     "Application.D_RemoveConsecutiveSubsequence.executor": "Run",
     "Application.DeleteMid.executor": "Run",
     "Application.E_CircularQueueLinkedList.executor": "Run",
@@ -212,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00088" summary="remove from any index element of the stack logic is done">
-      <option name="closed" value="true" />
-      <created>1734969395671</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1734969395671</updated>
     </task>
     <task id="LOCAL-00089" summary="array implementation done">
       <option name="closed" value="true" />
@@ -605,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736608244500</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Most frequent element in an array problem is solved using HashMap">
+      <option name="closed" value="true" />
+      <created>1736669419215</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1736669419215</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Infix to postfix conversion is done by my own" />
     <MESSAGE value="Postfix evaluation done by my own" />
     <MESSAGE value="Prefix evaluation is done by my own" />
     <MESSAGE value="Prefix to Postfix conversion by my own" />
@@ -634,7 +637,8 @@
     <MESSAGE value="Reordering of the queue is done" />
     <MESSAGE value="Created the first hashmap using collection framework" />
     <MESSAGE value="All important methods of hashmap using collection framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="All important methods of hashmap using collection framework" />
+    <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Most frequent element in an array problem is solved using HashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
