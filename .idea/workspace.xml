@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Valid anagram approach 2 question done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/C_IsomorphicStrings.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Isomorphics String question is been done successfully">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/D_TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00093" summary="done balanced bracket problem 2 by my own">
-      <option name="closed" value="true" />
-      <created>1735034810698</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1735034810698</updated>
     </task>
     <task id="LOCAL-00094" summary="done leetcode question of valid parenthesis by my own">
       <option name="closed" value="true" />
@@ -609,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737011277026</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Isomorphics String question is been done successfully">
+      <option name="closed" value="true" />
+      <created>1737014731275</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1737014731275</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Postfix to Infix Conversion done by own" />
     <MESSAGE value="Prefix to Infix Conversion done by own" />
     <MESSAGE value="Celebrity question done by stack under O(n) time complexity" />
     <MESSAGE value="Sliding window maximum done by bruteforce method" />
@@ -638,7 +637,8 @@
     <MESSAGE value="Initiated valid anagram" />
     <MESSAGE value="Valid anagram question done" />
     <MESSAGE value="Valid anagram approach 2 question done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid anagram approach 2 question done" />
+    <MESSAGE value="Isomorphics String question is been done successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Isomorphics String question is been done successfully" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
