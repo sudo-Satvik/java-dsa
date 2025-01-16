@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Initiated valid anagram">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Valid anagram question done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/B_ValidAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/B_ValidAnagrams.java" afterDir="false" />
     </list>
@@ -215,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00091" summary="done balanced bracket problem by my own">
-      <option name="closed" value="true" />
-      <created>1735029869376</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1735029869377</updated>
     </task>
     <task id="LOCAL-00092" summary="done balanced bracket problem by my own">
       <option name="closed" value="true" />
@@ -608,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1736872036436</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Valid anagram question done">
+      <option name="closed" value="true" />
+      <created>1737008261122</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1737008261122</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prefix to Postfix conversion by my own" />
     <MESSAGE value="Postfix to prefix is done by my own" />
     <MESSAGE value="Postfix to Infix Conversion done by own" />
     <MESSAGE value="Prefix to Infix Conversion done by own" />
@@ -637,7 +636,8 @@
     <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
     <MESSAGE value="Custom implementation of the hashmap is been done already" />
     <MESSAGE value="Initiated valid anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initiated valid anagram" />
+    <MESSAGE value="Valid anagram question done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid anagram question done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,6 +699,11 @@
           <url>file://$PROJECT_DIR$/src/data_structure/c_stacks/b_practice/M_SlidingWindowMax.java</url>
           <line>54</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/B_ValidAnagrams.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

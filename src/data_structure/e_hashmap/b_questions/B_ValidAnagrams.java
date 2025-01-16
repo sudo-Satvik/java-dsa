@@ -28,13 +28,30 @@ public class B_ValidAnagrams {
         return mp1.equals(mp2);
     }
 
+    // saving space by using one hashmap only!
+    public static boolean isAnagram2(String s, String t) {
+        if (s.length() != t.length()) return false;
+        HashMap<Character, Integer> mp = makeFreqMap(s);
+        for (int i = 0 ; i < s.length() ; i++) {
+            Character key = t.charAt(i);
+            if (!mp.containsKey(key)) return false;
+            int currentFreq = mp.get(key);
+            mp.put(key, currentFreq-1);
+        }
+        // All values in the map should be 0 for being true
+        for (Integer i : mp.values()) {
+            if (i != 0) return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         //To valid anagram: -
         // 1. The Length of both strings must be same
         // 2. The Frequency of each character must be the same
         // 3. No character must be extra different
-        String s = "anagram";
-        String t = "ramanag";
-        System.out.println(isAnagram(s, t));
+        String s = "rat";
+        String t = "car";
+        System.out.println(isAnagram2(s, t));
     }
 }
