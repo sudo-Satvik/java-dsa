@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="TwoSum optimised O(n) time complexity is done right now">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/e_hashmap/b_questions/E_LargestSubarraySum0.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="LargestSubarray sum 0 optimised O(n) time complexity is done right now">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/f_hashset/a_basics/A_FirstHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
   "keyToString": {
     "Application.A_BalancedBrackets.executor": "Run",
     "Application.A_FirstHashMap.executor": "Run",
+    "Application.A_FirstHashSet.executor": "Run",
     "Application.A_InfixEvaluation.executor": "Run",
     "Application.A_Intro.executor": "Run",
     "Application.A_MostFrequentElement.executor": "Run",
@@ -217,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00095" summary="done leetcode question of valid parenthesis by my own">
-      <option name="closed" value="true" />
-      <created>1735036536638</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1735036536638</updated>
     </task>
     <task id="LOCAL-00096" summary="done cosequences concept by raghav sir">
       <option name="closed" value="true" />
@@ -610,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737020751720</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="LargestSubarray sum 0 optimised O(n) time complexity is done right now">
+      <option name="closed" value="true" />
+      <created>1737023729168</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1737023729168</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Celebrity question done by stack under O(n) time complexity" />
     <MESSAGE value="Sliding window maximum done by bruteforce method" />
     <MESSAGE value="Sliding window maximum done by optimised method under O(n) time complexity" />
     <MESSAGE value="creating relevant directories" />
@@ -639,7 +639,8 @@
     <MESSAGE value="Valid anagram approach 2 question done" />
     <MESSAGE value="Isomorphics String question is been done successfully" />
     <MESSAGE value="TwoSum optimised O(n) time complexity is done right now" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoSum optimised O(n) time complexity is done right now" />
+    <MESSAGE value="LargestSubarray sum 0 optimised O(n) time complexity is done right now" />
+    <option name="LAST_COMMIT_MESSAGE" value="LargestSubarray sum 0 optimised O(n) time complexity is done right now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
