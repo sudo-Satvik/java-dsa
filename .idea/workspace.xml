@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Linear Search Coding implementation is done">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/B_BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Binary Search Coding implementation is done">
+      <change beforePath="$PROJECT_DIR$/src/algorithms/f_searching/C_RecursiveBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/f_searching/C_RecursiveBinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,7 @@
     "Application.C_IsomorphicStrings.executor": "Run",
     "Application.C_LengthLL.executor": "Run",
     "Application.C_LinkedListImplementation.executor": "Run",
+    "Application.C_RecursiveBinarySearch.executor": "Run",
     "Application.C_ReverseFirstK.executor": "Run",
     "Application.C_ReversingStack.executor": "Run",
     "Application.C_ValidBracketsLeetCode.executor": "Run",
@@ -222,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00100" summary="previous greater element is implemented by my own">
-      <option name="closed" value="true" />
-      <created>1735209831911</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1735209831911</updated>
     </task>
     <task id="LOCAL-00101" summary="stockspan problem done">
       <option name="closed" value="true" />
@@ -615,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737698415125</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Binary Search Coding implementation is done">
+      <option name="closed" value="true" />
+      <created>1737699890920</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1737699890920</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="printing of the queue is done" />
     <MESSAGE value="Implementation of Array code is been done" />
     <MESSAGE value="update the README.md progress" />
     <MESSAGE value="Implementation of Queue by using the LinkedList is demonstrated by the code" />
@@ -644,7 +643,8 @@
     <MESSAGE value="Largest consecutive question problem done by bruteforce and hashset" />
     <MESSAGE value="Max number on table problem done by bruteforce and hashset" />
     <MESSAGE value="Linear Search Coding implementation is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear Search Coding implementation is done" />
+    <MESSAGE value="Binary Search Coding implementation is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Coding implementation is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
