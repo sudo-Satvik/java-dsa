@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Max number on table problem done by bruteforce and hashset">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Linear Search Coding implementation is done">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/B_BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +61,14 @@
     "Application.A_FirstHashSet.executor": "Run",
     "Application.A_InfixEvaluation.executor": "Run",
     "Application.A_Intro.executor": "Run",
+    "Application.A_LinearSearch.executor": "Run",
     "Application.A_MostFrequentElement.executor": "Run",
     "Application.A_PrintingQueue.executor": "Run",
     "Application.A_UserDefinedDatatype.executor": "Run",
     "Application.A_UsingCollectionFramework.executor": "Run",
     "Application.B_ArrayImplementation.executor": "Run",
     "Application.B_BalancedBrackets2.executor": "Run",
+    "Application.B_BinarySearch.executor": "Run",
     "Application.B_CallStack.executor": "Run",
     "Application.B_CopyingStack.executor": "Run",
     "Application.B_HashMapCollecFramework.executor": "Run",
@@ -219,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00099" summary="next greater element by optimised method is added">
-      <option name="closed" value="true" />
-      <created>1735207614501</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1735207614501</updated>
     </task>
     <task id="LOCAL-00100" summary="previous greater element is implemented by my own">
       <option name="closed" value="true" />
@@ -612,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737225946585</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Linear Search Coding implementation is done">
+      <option name="closed" value="true" />
+      <created>1737698415125</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1737698415125</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented queues using Collection Frameworks" />
     <MESSAGE value="printing of the queue is done" />
     <MESSAGE value="Implementation of Array code is been done" />
     <MESSAGE value="update the README.md progress" />
@@ -641,7 +643,8 @@
     <MESSAGE value="Initiated and understand the hashset class of collection framework" />
     <MESSAGE value="Largest consecutive question problem done by bruteforce and hashset" />
     <MESSAGE value="Max number on table problem done by bruteforce and hashset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Max number on table problem done by bruteforce and hashset" />
+    <MESSAGE value="Linear Search Coding implementation is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linear Search Coding implementation is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
