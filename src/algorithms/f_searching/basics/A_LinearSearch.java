@@ -1,4 +1,4 @@
-package algorithms.f_searching;
+package algorithms.f_searching.basics;
 // O(n) time complexity searching algorithm
 public class A_LinearSearch {
     public static int linearSearch(int[] arr, int target) {

@@ -1,4 +1,4 @@
-package algorithms.f_searching;
+package algorithms.f_searching.basics;
 
 public class C_RecursiveBinarySearch {
     public static int recursiveBinarySearch(int[] arr, int start, int end, int target) {

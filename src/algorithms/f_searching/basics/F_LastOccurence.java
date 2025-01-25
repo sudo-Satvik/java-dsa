@@ -1,4 +1,4 @@
-package algorithms.f_searching;
+package algorithms.f_searching.basics;
 
 public class F_LastOccurence {
     public static int lastOccurence(int[] arr, int target) {

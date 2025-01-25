@@ -1,4 +1,4 @@
-package algorithms.f_searching;
+package algorithms.f_searching.basics;
 
 
 public class B_BinarySearch {
