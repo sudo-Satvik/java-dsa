@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="First Occurence Problem is done">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/D_FirstOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/E_Sqrt.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="First Occurence Problem is done along with sqrt problem">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/F_LastOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/G_SqrtPrecision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +116,7 @@
     "Application.Experiment.executor": "Run",
     "Application.F_DequeCollectionFramework.executor": "Run",
     "Application.F_DisplayingStackUsingRecursion.executor": "Run",
+    "Application.F_LastOccurence.executor": "Run",
     "Application.F_PostfixEvaluation.executor": "Run",
     "Application.F_PreviousGreaterElement.executor": "Run",
     "Application.F_PtoQ.executor": "Run",
@@ -226,14 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00103" summary="previous smaller element problem done by own">
-      <option name="closed" value="true" />
-      <created>1735217017147</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1735217017147</updated>
     </task>
     <task id="LOCAL-00104" summary="largest rectangle in the histogram is done">
       <option name="closed" value="true" />
@@ -619,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737702557363</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="First Occurence Problem is done along with sqrt problem">
+      <option name="closed" value="true" />
+      <created>1737704501634</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1737704501634</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementation of Queue by using the LinkedList is demonstrated by the code" />
     <MESSAGE value="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
     <MESSAGE value="Implementation of LinkedList in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
     <MESSAGE value="Implementation of Deque using Collection Framework is done" />
@@ -648,7 +648,8 @@
     <MESSAGE value="Binary Search Coding implementation is done" />
     <MESSAGE value="Recursive Binary Search Coding implementation is done" />
     <MESSAGE value="First Occurence Problem is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Occurence Problem is done" />
+    <MESSAGE value="First Occurence Problem is done along with sqrt problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Occurence Problem is done along with sqrt problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
