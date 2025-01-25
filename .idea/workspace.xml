@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="First Occurence Problem is done along with sqrt problem">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/F_LastOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/G_SqrtPrecision.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Refactored the packages">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/medium/MinIdxRotSortArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,7 @@
     "Application.Experiment.executor": "Run",
     "Application.F_DequeCollectionFramework.executor": "Run",
     "Application.F_DisplayingStackUsingRecursion.executor": "Run",
-    "Application.F_LastOccurence.executor": "Run",
+    "Application.F_LastOccurence.executor": "Debug",
     "Application.F_PostfixEvaluation.executor": "Run",
     "Application.F_PreviousGreaterElement.executor": "Run",
     "Application.F_PtoQ.executor": "Run",
@@ -159,6 +158,7 @@
     "Application.MaxMin.executor": "Run",
     "Application.MaxNumberOnTable.executor": "Run",
     "Application.MiddleNode.executor": "Run",
+    "Application.MinIdxRotSortArr.executor": "Run",
     "Application.Occurence.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
@@ -227,22 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00104" summary="largest rectangle in the histogram is done">
-      <option name="closed" value="true" />
-      <created>1735283447386</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1735283447386</updated>
-    </task>
-    <task id="LOCAL-00105" summary="min stack question is also done">
-      <option name="closed" value="true" />
-      <created>1735285641422</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1735285641422</updated>
     </task>
     <task id="LOCAL-00106" summary="changes done in packages">
       <option name="closed" value="true" />
@@ -620,12 +604,26 @@
       <option name="project" value="LOCAL" />
       <updated>1737704501634</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Last Occurence Problem is done along with sqrt problem">
+      <option name="closed" value="true" />
+      <created>1737784143846</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1737784143846</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Refactored the packages">
+      <option name="closed" value="true" />
+      <created>1737784207139</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1737784207139</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementation of Array in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
-    <MESSAGE value="Implementation of LinkedList in Queue via Circular Queue demonstrating the optimised way to use space of the array" />
     <MESSAGE value="Implementation of Deque using Collection Framework is done" />
     <MESSAGE value="Reversal of the queue is done by my own" />
     <MESSAGE value="Reversal of first k element is done by me" />
@@ -649,7 +647,9 @@
     <MESSAGE value="Recursive Binary Search Coding implementation is done" />
     <MESSAGE value="First Occurence Problem is done" />
     <MESSAGE value="First Occurence Problem is done along with sqrt problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Occurence Problem is done along with sqrt problem" />
+    <MESSAGE value="Last Occurence Problem is done along with sqrt problem" />
+    <MESSAGE value="Refactored the packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,9 +718,14 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/f_searching/D_FirstOccurence.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/f_searching/basics/D_FirstOccurence.java</url>
           <line>23</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/f_searching/basics/F_LastOccurence.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
