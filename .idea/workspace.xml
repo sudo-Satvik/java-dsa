@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="ChocolateDistribution problem is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/String1.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="String with its basic methods are done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/String2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,6 +192,7 @@
     "Application.StackOverflow.executor": "Run",
     "Application.StackUnderflow.executor": "Run",
     "Application.String1.executor": "Run",
+    "Application.String2.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Sum2DArray.executor": "Run",
     "Application.Sum2DArray2.executor": "Run",
@@ -232,14 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Infix to postfix conversion is done by my own">
-      <option name="closed" value="true" />
-      <created>1735369794355</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1735369794355</updated>
     </task>
     <task id="LOCAL-00111" summary="Postfix evaluation done by my own">
       <option name="closed" value="true" />
@@ -625,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738067480701</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="String with its basic methods are done">
+      <option name="closed" value="true" />
+      <created>1739021738388</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1739021738388</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reordering of the queue is done" />
     <MESSAGE value="Created the first hashmap using collection framework" />
     <MESSAGE value="All important methods of hashmap using collection framework" />
     <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
@@ -654,7 +654,8 @@
     <MESSAGE value="Searching in rotated sorted array is done" />
     <MESSAGE value="Searching in rotated sorted array (duplicate element version) is done" />
     <MESSAGE value="ChocolateDistribution problem is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChocolateDistribution problem is done" />
+    <MESSAGE value="String with its basic methods are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="String with its basic methods are done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
