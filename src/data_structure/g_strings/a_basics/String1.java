@@ -1,5 +1,5 @@
-package data_structure.g_strings;
-import java.util.*;
+package data_structure.g_strings.a_basics;
+
 public class String1 {
     public static void main(String[] args) {
         String str = "Satvik";

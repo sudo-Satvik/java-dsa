@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="String with its basic methods are done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/String2.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="String + int or char or String is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/b_practice/A_AllSubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/String2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +37,12 @@
     &quot;assignee&quot;: &quot;sudo-Satvik&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sudo-Satvik/java-dsa&quot;,
-    &quot;accountId&quot;: &quot;5bedb6b9-5228-4dfd-9edc-b1aaa39bd94a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sudo-Satvik/java-dsa.git",
+    "accountId": "d0dbc15b-8928-4b7c-be20-c301b2d80088"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/data_structure/g_strings/String1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -193,6 +196,7 @@
     "Application.StackUnderflow.executor": "Run",
     "Application.String1.executor": "Run",
     "Application.String2.executor": "Run",
+    "Application.String3.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Sum2DArray.executor": "Run",
     "Application.Sum2DArray2.executor": "Run",
@@ -233,14 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Postfix evaluation done by my own">
-      <option name="closed" value="true" />
-      <created>1735370852324</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1735370852324</updated>
     </task>
     <task id="LOCAL-00112" summary="Prefix evaluation is done by my own">
       <option name="closed" value="true" />
@@ -626,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739021738388</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="String + int or char or String is done">
+      <option name="closed" value="true" />
+      <created>1739022432872</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1739022432872</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created the first hashmap using collection framework" />
     <MESSAGE value="All important methods of hashmap using collection framework" />
     <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
     <MESSAGE value="Custom implementation of the hashmap is been done already" />
@@ -655,7 +658,8 @@
     <MESSAGE value="Searching in rotated sorted array (duplicate element version) is done" />
     <MESSAGE value="ChocolateDistribution problem is done" />
     <MESSAGE value="String with its basic methods are done" />
-    <option name="LAST_COMMIT_MESSAGE" value="String with its basic methods are done" />
+    <MESSAGE value="String + int or char or String is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="String + int or char or String is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

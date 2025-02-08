@@ -1,4 +1,4 @@
-package data_structure.g_strings;
+package data_structure.g_strings.a_basics;
 // String + int or char or String
 public class String2 {
     public static void main(String[] args) {
