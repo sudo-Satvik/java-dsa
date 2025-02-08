@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="ChocolateDistribution problem is done">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/f_searching/expert/RaceTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/String1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/data_structure/linkedlist/questions/FromEnd.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/data_structure/g_strings/String1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -191,6 +191,7 @@
     "Application.SquareSorting.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StackUnderflow.executor": "Run",
+    "Application.String1.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Sum2DArray.executor": "Run",
     "Application.Sum2DArray2.executor": "Run",
@@ -214,7 +215,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Practice/Java + DSA/MissionFAANG",
+    "last_opened_file_path": "/home/s4tan/Desktop/Learning/java-dsa",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
