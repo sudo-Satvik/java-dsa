@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="String + int or char or String is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/b_practice/A_AllSubstrings.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All Substrings of a given string question is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/String2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A_AllSubstrings.executor": "Run",
     "Application.A_BalancedBrackets.executor": "Run",
     "Application.A_FirstHashMap.executor": "Run",
     "Application.A_FirstHashSet.executor": "Run",
@@ -237,14 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Prefix evaluation is done by my own">
-      <option name="closed" value="true" />
-      <created>1735371228954</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1735371228955</updated>
     </task>
     <task id="LOCAL-00113" summary="Prefix to Postfix conversion by my own">
       <option name="closed" value="true" />
@@ -630,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739022432872</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="All Substrings of a given string question is done">
+      <option name="closed" value="true" />
+      <created>1739023812581</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1739023812581</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="All important methods of hashmap using collection framework" />
     <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
     <MESSAGE value="Custom implementation of the hashmap is been done already" />
     <MESSAGE value="Initiated valid anagram" />
@@ -659,7 +656,8 @@
     <MESSAGE value="ChocolateDistribution problem is done" />
     <MESSAGE value="String with its basic methods are done" />
     <MESSAGE value="String + int or char or String is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="String + int or char or String is done" />
+    <MESSAGE value="All Substrings of a given string question is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Substrings of a given string question is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
