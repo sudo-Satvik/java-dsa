@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="All Substrings of a given string question is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String4.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Interning and new concept in string is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,14 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Prefix to Postfix conversion by my own">
-      <option name="closed" value="true" />
-      <created>1735371958060</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1735371958060</updated>
     </task>
     <task id="LOCAL-00114" summary="Postfix to prefix is done by my own">
       <option name="closed" value="true" />
@@ -628,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739023812581</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Interning and new concept in string is done">
+      <option name="closed" value="true" />
+      <created>1739025326428</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1739025326428</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Most frequent element in an array problem is solved using HashMap" />
     <MESSAGE value="Custom implementation of the hashmap is been done already" />
     <MESSAGE value="Initiated valid anagram" />
     <MESSAGE value="Valid anagram question done" />
@@ -657,7 +656,8 @@
     <MESSAGE value="String with its basic methods are done" />
     <MESSAGE value="String + int or char or String is done" />
     <MESSAGE value="All Substrings of a given string question is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Substrings of a given string question is done" />
+    <MESSAGE value="Interning and new concept in string is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interning and new concept in string is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
