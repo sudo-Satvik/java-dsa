@@ -38,5 +38,19 @@ public class String1 {
 
         // concat(strName) function of string
         System.out.println(str.concat(gtr));
+
+        // == and equals() of strings
+        System.out.println("sat" == "sat"); // this operator is not valid, instead use equals()
+        System.out.println("sat".equals("sat"));
+        // here's why
+        String str1 = "abc";
+        String str2 = "abc";
+        String str3 = new String("abc");
+        // It shows true because reference variable points to single object in heap memory
+        System.out.println(str1 == str2);
+        // When we do this, we got false because we failed the concept of the INTERNING
+        System.out.println(str1 == str3);
+        // To overcome this issue, we use .equals()
+        System.out.println(str1.equals(str3));
     }
 }

@@ -1,5 +1,6 @@
 package data_structure.g_strings.a_basics;
 // String Immutability
+// String mutability make its performance degraded
 public class String5 {
     public static void main(String[] args) {
         String message = "Hello";
