@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="String immutability feature in Java is done">
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="Learnt about string performance and difference between == and .equals()">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/b_advance/StringBuilder1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/a_basics/String5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/b_practice/A_AllSubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/c_practice/A_AllSubstrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,14 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Postfix to Infix Conversion done by own">
-      <option name="closed" value="true" />
-      <created>1735373279430</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1735373279431</updated>
     </task>
     <task id="LOCAL-00116" summary="Prefix to Infix Conversion done by own">
       <option name="closed" value="true" />
@@ -630,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739025531059</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Learnt about string performance and difference between == and .equals()">
+      <option name="closed" value="true" />
+      <created>1739082909459</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1739082909459</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initiated valid anagram" />
     <MESSAGE value="Valid anagram question done" />
     <MESSAGE value="Valid anagram approach 2 question done" />
     <MESSAGE value="Isomorphics String question is been done successfully" />
@@ -659,7 +658,8 @@
     <MESSAGE value="All Substrings of a given string question is done" />
     <MESSAGE value="Interning and new concept in string is done" />
     <MESSAGE value="String immutability feature in Java is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="String immutability feature in Java is done" />
+    <MESSAGE value="Learnt about string performance and difference between == and .equals()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learnt about string performance and difference between == and .equals()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

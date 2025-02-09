@@ -1,4 +1,4 @@
-package data_structure.g_strings.b_practice;
+package data_structure.g_strings.c_practice;
 // Write a Java code to print the all Subsequences of a String
 
 public class A_AllSubstrings {
