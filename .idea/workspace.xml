@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="StringBuilder methods is done">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/c_practice/C_ReversingString.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="reversing the string question is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/c_practice/B_ToggleChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/g_strings/b_advance/StringBuilder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/g_strings/b_advance/StringBuilder2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +78,7 @@
     "Application.B_InfixEvaluation2.executor": "Run",
     "Application.B_LinkedList1.executor": "Run",
     "Application.B_ReverseQueue.executor": "Run",
+    "Application.B_ToggleChar.executor": "Run",
     "Application.B_ValidAnagrams.executor": "Run",
     "Application.BalancedBrackets.executor": "Run",
     "Application.BottomInsert.executor": "Run",
@@ -239,14 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Sliding window maximum done by bruteforce method">
-      <option name="closed" value="true" />
-      <created>1735466632720</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1735466632720</updated>
     </task>
     <task id="LOCAL-00119" summary="Sliding window maximum done by optimised method under O(n) time complexity">
       <option name="closed" value="true" />
@@ -632,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739093824629</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="reversing the string question is done">
+      <option name="closed" value="true" />
+      <created>1739095234023</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1739095234023</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Isomorphics String question is been done successfully" />
     <MESSAGE value="TwoSum optimised O(n) time complexity is done right now" />
     <MESSAGE value="LargestSubarray sum 0 optimised O(n) time complexity is done right now" />
     <MESSAGE value="Initiated and understand the hashset class of collection framework" />
@@ -661,7 +663,8 @@
     <MESSAGE value="Learnt about string performance and difference between == and .equals()" />
     <MESSAGE value="StringBuilder is learnt" />
     <MESSAGE value="StringBuilder methods is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder methods is done" />
+    <MESSAGE value="reversing the string question is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="reversing the string question is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,11 +741,6 @@
           <url>file://$PROJECT_DIR$/src/algorithms/f_searching/basics/F_LastOccurence.java</url>
           <line>22</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/data_structure/g_strings/c_practice/C_ReversingString.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

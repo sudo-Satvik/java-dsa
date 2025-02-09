@@ -2,10 +2,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Main main = new Main();
-        int[][] mat = {{0, 0, 0}, {0, 1, 0}, {1, 1, 1}};
-        int[][] target = {{1, 1, 1}, {0, 1, 0}, {0, 0, 0}};
-        System.out.println(main.findRotation(mat, target));
+        System.out.println((int)'a');
     }
     public boolean findRotation(int[][] mat, int[][] target) {
         int n = mat.length, rotCount = 0;

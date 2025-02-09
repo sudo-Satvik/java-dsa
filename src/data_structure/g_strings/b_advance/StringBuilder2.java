@@ -5,7 +5,7 @@ public class StringBuilder2 {
     public static void main(String[] args) {
         StringBuilder str = new StringBuilder("abcde");
 
-        // setCharAt(idx, ch) and append(ch)
+        // setCharAt(idx, ch) and append(str)
         str.setCharAt(1, 'z');
         System.out.println(str);
         System.out.println(str.append(str));
