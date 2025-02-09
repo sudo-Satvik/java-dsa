@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="StringBuilder is learnt">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/b_advance/StringBuilder2.java" afterDir="false" />
+    <list default="true" id="5a9cdb1d-2e1f-4bd1-bf7d-7221024d1eea" name="Changes" comment="StringBuilder methods is done">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/g_strings/c_practice/C_ReversingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +89,7 @@
     "Application.C_RecursiveBinarySearch.executor": "Run",
     "Application.C_ReverseFirstK.executor": "Run",
     "Application.C_ReversingStack.executor": "Run",
+    "Application.C_ReversingString.executor": "Run",
     "Application.C_ValidBracketsLeetCode.executor": "Run",
     "Application.C_ValidParenthesis.executor": "Run",
     "Application.ChocolateDistribution.executor": "Run",
@@ -238,14 +239,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728025702239</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Celebrity question done by stack under O(n) time complexity">
-      <option name="closed" value="true" />
-      <created>1735457558584</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1735457558584</updated>
     </task>
     <task id="LOCAL-00118" summary="Sliding window maximum done by bruteforce method">
       <option name="closed" value="true" />
@@ -631,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1739083564180</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="StringBuilder methods is done">
+      <option name="closed" value="true" />
+      <created>1739093824629</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1739093824629</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Valid anagram approach 2 question done" />
     <MESSAGE value="Isomorphics String question is been done successfully" />
     <MESSAGE value="TwoSum optimised O(n) time complexity is done right now" />
     <MESSAGE value="LargestSubarray sum 0 optimised O(n) time complexity is done right now" />
@@ -660,7 +660,8 @@
     <MESSAGE value="String immutability feature in Java is done" />
     <MESSAGE value="Learnt about string performance and difference between == and .equals()" />
     <MESSAGE value="StringBuilder is learnt" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder is learnt" />
+    <MESSAGE value="StringBuilder methods is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder methods is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,6 +738,11 @@
           <url>file://$PROJECT_DIR$/src/algorithms/f_searching/basics/F_LastOccurence.java</url>
           <line>22</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/data_structure/g_strings/c_practice/C_ReversingString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
